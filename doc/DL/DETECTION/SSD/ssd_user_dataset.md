@@ -11,7 +11,7 @@
   `python txt_xml()` [code](../../../../trans.py)
 # convert .xml to.cvs
    `python xml_csv()` [code](../../../../xml_to_csv.py)
-   ##csv_result
+   ## csv_result
    ![csv_result](pic/csv_result.png)
 # convert .csv to .record
   ``os.chdir('/home/sy/code/project/models/research/')``
