@@ -22,7 +22,7 @@
     from pycocotools.coco import COCO
     无报错即可
     
-   ![COCO_install_ok](/home/sy/paper/write/pic/markdown/python/COCO_INSTALL_OK.png)
+   ![COCO_install_ok](https://github.com/shenyingying/clairvoyant/blob/master/doc/pic/COCO_INSTALL_OK.png)
     
     还是不行，可以执行如下命令
     cd coco/PythonAPI
