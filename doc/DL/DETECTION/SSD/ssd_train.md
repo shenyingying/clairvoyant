@@ -1,10 +1,10 @@
 `os.chdir('/home/sy/code/project/models/research/object_detection/')`
 
-#新版本指令：
+# 新版本指令：
 
 `python3 object_detection/model_main.py --pipeline_config_path=/home/sy/data/work/eye/ssd_mobilenet_v1_coco.config --model_dir=/home/sy/code/project/models/research/object_detection/training --num_train_steps=50000 --num_eval_steps=2000 --alsologtostder`
 
-##可能遇到问题：
+## 可能遇到问题：
 
   1.![waring](pic/new_train_warning.jpg)
     ans：这是因为你的test数据量太少远远小于config 文件中的 num_example
@@ -18,7 +18,7 @@
   
    ![新版本正确输出](pic/new_train_result.png)
    
-#旧版本指令：
+# 旧版本指令：
 
 `python legacy/train.py --logtostderr --train_dir=training/ --pipeline_config_path=/home/sy/data/work/StandardCVSXImages/ssd_mobilenet_v1_coco.config`
 
