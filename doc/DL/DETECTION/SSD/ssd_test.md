@@ -10,5 +10,8 @@
  
      # from models/research/
      `python object_detection.py` 
-   [code]()
+   [code](../../../../object_detection.py)
  
+# result
+
+![result](pic/ssd_result.png)
