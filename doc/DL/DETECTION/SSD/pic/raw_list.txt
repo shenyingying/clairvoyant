@@ -1,0 +1,6 @@
+#Postprocessor/BatchMultiClassNonMaxSuppression add
+/home/sy/code/project/snpe-1.22.0.212/models/ssd/data/cropped/image_2_8.raw
+/home/sy/code/project/snpe-1.22.0.212/models/ssd/data/cropped/image_3_2.raw
+/home/sy/code/project/snpe-1.22.0.212/models/ssd/data/cropped/image_2_10.raw
+/home/sy/code/project/snpe-1.22.0.212/models/ssd/data/cropped/image_2_9.raw
+/home/sy/code/project/snpe-1.22.0.212/models/ssd/data/cropped/image_3_1.raw
