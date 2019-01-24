@@ -46,6 +46,13 @@ a:安装ObjectAPI
     cd cocoapi/PythonAPI
     make
     cp -r pycocotools <刚才下载的path>/models/research/
+    验证cocoapi是否安装成功
+    在终端执行 python，然后导入
+     import pycocotools
+     from pycocotools.coco import COCO
+    不报错即可
+
+
   4.在<刚才下载的path>/models/research/执行
     wget -O protobuf.zip https://github.com/google/protobuf/releases/download/v3.0.0/protoc-3.0.0-linux-x86_64.zip
     unzip protobuf.zip
