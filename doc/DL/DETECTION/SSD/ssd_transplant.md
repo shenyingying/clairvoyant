@@ -1,9 +1,12 @@
-# convert .pb to .dlc
+# convert .ckpt to .pb
   
     python3 object_detection/export_inference_graph.py --input_type=image_tensor --pipeline_config_path=/home/sy/code/project/models/research/object_detection/training/pipeline.config --trained_checkpoint_prefix=/home/sy/code/project/models/research/object_detection/training/model.ckpt-15432 --output_directory=/home/sy/data/work/StandardCVSXImages/log_old/
 
    tips: 因为snpe office 只支持到tf-1.6,而tf office 只有 tf-1.9之上的，需要用老版本训练，转化不能成功转化。
    
+# convert .pb to .dlc
+  
+     snpe-tensorflow-to-dlc --graph /home/sy/data/work/StandardCVSXImages/log_old/frozen_inference_graph.pb -i Preprocessor/sub 1,300,300,3 --out_node detection_classes --out_node detection_boxes --out_node detection_scores --dlc /home/sy/data/work/StandardCVSXImages/pupils_ssd.dlc --allow_unconsumed_nodes
 # some change in office demo code
   ## 屏蔽权限
    1. permission question
@@ -37,10 +40,29 @@
   ![show](pic/show.png)
   
   ## mobilenet_ssd specials
-  
-  
-  
+  [buildnet(code)](../../../../java/LoadNetworkTask.java)
+  [code](../../../../java/LoadModelsTask.java)
+  [logout(code)](../../../../java/ClassifyImageWithFloatTensorTask.java)
+ 
+# snpe-net-run in linux host
+1. create_raw file [code](../../../../scripts/create_ssd_raws.py)
+ 
+    `python scripts/create_inceptionv3_raws.py -i data/ -d data/cropped/`
+ 
+2. create_file_list [code](../../../../scripts/create_file_list.py)
+ 
+    `python scripts/create_file_list.py -i data/cropped/ -o data/cropped/raw_list.txt -e *.raw`
+3. snpe_net_run 
+
+    add this line  `#Postprocessor/BatchMultiClassNonMaxSuppression add ` before  the raw_list.txt for ssd multiply output layer [raw.txt](pic/raw_list.txt)
+    
+   `snpe-net-run  --container dlc/model.dlc --input_list data/cropped/raw_list.txt --enable_cpu_fallback`
+   
+   
+   for snpe didn't support all the layer in GPU,so you should add `--enable_cpu_fallback`
+ 4.show the result [code](../../../../scripts/show_ssd_detection.py)
 
 # result in 820 chip
+
 
 # accuracy compare between pc and chip
