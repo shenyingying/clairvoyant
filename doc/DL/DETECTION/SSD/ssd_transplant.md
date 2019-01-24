@@ -67,7 +67,7 @@
     300*300像素，GPU运行时间大致40ms左右,无知太可怕，之前还以为高通的GPU并没有提升多少，现在才发现提升了小10倍，做技术重在多折腾。 
 
 
-  ![result](pic/820chip.jpg)
+  ![result](pic/820_result30.jpg)
 
 # accuracy compare between pc and chip
 
