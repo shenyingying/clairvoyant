@@ -64,5 +64,23 @@
 
 # result in 820 chip
 
+    300*300像素，GPU运行时间大致40ms左右,无知太可怕，之前还以为高通的GPU并没有提升多少，现在才发现提升了小10倍，做技术重在多折腾。 
+
+
+  ![result](pic/820chip.jpg)
 
 # accuracy compare between pc and chip
+
+show on liunx_host
+  
+    由于snpe-tensorflow-to-dlc 默认保留权重8位，可能会有些损失，在300×300的图片显示，稍微偏一两个像素，我在显示的时候扩充了两个像素。
+![show](pic/liunx_host_show.png)
+
+run on liunx_host
+
+ ![host](pic/run_liunx_host.png)
+run on chip 
+
+ ![chip](pic/run_chip.png)
+ 
+    从结果看，经过snpe_tensorflow_to_dlc转化的模型在识别精度上相差不到一个像素。
