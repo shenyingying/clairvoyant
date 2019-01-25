@@ -2,7 +2,7 @@
   
     python3 object_detection/export_inference_graph.py --input_type=image_tensor --pipeline_config_path=/home/sy/code/project/models/research/object_detection/training/pipeline.config --trained_checkpoint_prefix=/home/sy/code/project/models/research/object_detection/training/model.ckpt-15432 --output_directory=/home/sy/data/work/StandardCVSXImages/log_old/
 
-   tips: 因为snpe office 只支持到tf-1.6,而tf office 只有 tf-1.9之上的，需要用老版本训练，转化不能成功转化。
+   tips: 因为snpe office 只支持到tf-1.6,而tf office 只有 tf-1.9之上的，需要用老版本训练，转化不能成功转化。[model](data/model.dlc)
    
 # convert .pb to .dlc
   

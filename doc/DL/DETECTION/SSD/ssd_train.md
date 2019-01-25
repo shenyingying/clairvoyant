@@ -4,6 +4,7 @@
 
 `python3 object_detection/model_main.py --pipeline_config_path=/home/sy/data/work/eye/ssd_mobilenet_v1_coco.config --model_dir=/home/sy/code/project/models/research/object_detection/training --num_train_steps=50000 --num_eval_steps=2000 --alsologtostder`
 
+[config](data/pipeline.config)
 ## 可能遇到问题：
 
   1.![waring](pic/new_train_warning.jpg)
