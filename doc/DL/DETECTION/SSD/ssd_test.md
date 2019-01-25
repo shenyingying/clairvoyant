@@ -17,4 +17,3 @@
 
 ![result](pic/ssd_result.png)
 [all the pupils result in mobilenet_ssd](https://pan.baidu.com/s/18_EKyBkF-FquQfIGjkT21g)
-[all the optic disc result in mobilenet_ssd]()
