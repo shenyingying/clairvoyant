@@ -1,9 +1,0 @@
-1.pip
-  Q:ImportError: No module named 'pip._internal'
-    执行pip3：
-    import: not authorized `sys' @ error/constitute.c/WriteImage/1028.
-    from: can't read /var/mail/pip
-    /usr/bin/pip3: 行 11: 未预期的符号 `main.main' 附近有语法错误
-    /usr/bin/pip3: 行 11: `    sys.exit(main.main())'
-  A：curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-     python3.5 get-pip.py --force-reinstall
