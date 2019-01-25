@@ -113,6 +113,11 @@ def move_format_file(src,dst,format):
         else:
             continue
 
+def xml_txt(src,dst):
+    try:
+        import xml.etree.cElementTree as ET
+    except ImportError:
+        import xml.etree.ElementTree as ET
 
 
 if __name__ == '__main__':
