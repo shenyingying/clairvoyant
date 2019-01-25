@@ -1,4 +1,9 @@
 # -*- coding: utf-8 -*-
+# @Time    : 19-1-18 上午10:37
+# @Author  : shenyingying
+# @Email   : shen222ying@163.com
+# @File    : xml_to_csv.py
+# @Software: PyCharm
 
 import os
 import glob
