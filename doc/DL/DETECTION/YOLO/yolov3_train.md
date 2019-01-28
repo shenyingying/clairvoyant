@@ -1,6 +1,6 @@
 1. 根据官网指示来一遍[link](1.https://pjreddie.com/darknet/yolo/)
 2. 用lableImg标注自己的数据，labelImg 的标注结果提供yolo(.txt)版本和voc(.xml)版本;
-   .txt的标注结果如下：
+   .txt的标注结果如下[code(xml_txt)](../../../../transs.py)：
    
     | 类别 | 中心坐标x | 中心坐标y | 矩形框的长 | 矩形框的宽 |
     |:-----|:--------|:---------|:----------|:----------|
@@ -40,7 +40,7 @@
        2.修改YOLO上面最近一个 [convolutional]中的filter=[class+5]*3 (共有三处)
        3.修改YOLO层中classes (共有三处)
 5. 修改.names文件 [names](data/optic.names)
-6. 修改.data文件 [data](data/optic.data)
+6. 修改.data文件 [data](data/optic.data) 转化 [code](../../../../transs.py) reuslt 文件[train test file](data/optic_train.txt)
 7. [config 文件的参数说明](data/config.txt)
  
    也即yolo的网络结构：
@@ -50,6 +50,9 @@
   ![trainlog]()
   
 9. 常用指令参考：
+
+       sudo ./darknet detect cfg/yolov3.cfg backup/yolov3.weights.1 data/dog.jpg -thresh 0.00001
+       
   
    
 

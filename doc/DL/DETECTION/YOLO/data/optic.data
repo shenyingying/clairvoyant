@@ -1,6 +1,6 @@
-classes= 20
-train  = /home/pjreddie/data/voc/train.txt
-valid  = /home/pjreddie/data/voc/2007_test.txt
-names = data/voc.names
+classes= 1
+train  = /home/sy/code/project/darknet/data/optic_train.txt
+valid  = /home/sy/code/project/darknet/data/optic_test.tx
+names = /home/sy/code/project/darknet/data/optic.names
 backup = backup
 

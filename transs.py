@@ -151,6 +151,17 @@ def xml_txt(src, dst):
             f.write(content)
             f.close()
 
+def generate_train(pic_path,dst_file):
+    f=open(dst_file,'w')
+    files=os.listdir(pic_path)
+    for file in files:
+        file=file.split('.')
+        if file[-1]=='jpg':
+            line=pic_path+file[0]+'.jpg\n'
+            f.writelines(line)
+    f.close()
+
+
 
 if __name__ == '__main__':
     # img_dir ="/home/sy/data/work/StandardCVSXImages/image_jpg/"
@@ -163,7 +174,8 @@ if __name__ == '__main__':
     # dst_dir="/home/sy/data/work/StandardCVSXImages/im_jpg/"
     # bmp_jpg(src_dir,dst_dir,'bmp','jpg')
 
-    src = "/home/sy/data/work/eye/label_xml/test/"
-    dst = "/home/sy/data/work/eye/label_txt/test/"
+    src = "/home/sy/data/work/eye/image/"
+    dst = "/home/sy/code/project/darknet/data/optic_train.txt"
     # move_format_file(src,dst,'xml')
-    xml_txt(src, dst)
+    # xml_txt(src, dst)
+    generate_train(src,dst)
