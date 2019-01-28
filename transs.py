@@ -27,13 +27,14 @@ def bmp_jpg(src_dir, dst_dir, src_format, dst_format):
             cv2.waitKey(1)
             cv2.imwrite(dst_file_name, img)
 
+
 def change_content(label_txt_dir):
-    labels=os.listdir(label_txt_dir)
+    labels = os.listdir(label_txt_dir)
     for label in labels:
-        with open(label,'r')as f:
-            label=f.readlines()
-            label=[lab.strip('\n')for lab in label]
-            lab=lab.split()
+        with open(label, 'r')as f:
+            label = f.readlines()
+            label = [lab.strip('\n') for lab in label]
+            lab = lab.split()
 
 
 # convert label with .txt to .xml
@@ -67,57 +68,88 @@ def txt_xml(img_dir, label_txt_dir, name_dir, label_xml_dir):
             ET.SubElement(bndbox, 'ymin').text = str(int(labeldict['ymin']))
             ET.SubElement(bndbox, 'xmax').text = str(int(labeldict['xmax']))
             ET.SubElement(bndbox, 'ymax').text = str(int(labeldict['ymax']))
-        tree=ET.ElementTree(root)
-        tree.write(filepath,encoding='utf-8')
+        tree = ET.ElementTree(root)
+        tree.write(filepath, encoding='utf-8')
 
     for label in labels:
-        with open(label_txt_dir+label,'r')as f:
+        with open(label_txt_dir + label, 'r')as f:
             # img_id=os.path.split(label)[0]
-            img_id=label.split('.')[0]
-            contents=f.readlines()
-            labeldicts=[]
+            img_id = label.split('.')[0]
+            contents = f.readlines()
+            labeldicts = []
             for content in contents:
-                img=np.array(Image.open(img_dir+label.strip('.txt')+'.jpg'))
-                sh,sw=img.shape[0],img.shape[1]
-                content=content.strip('\n').split()
+                img = np.array(Image.open(img_dir + label.strip('.txt') + '.jpg'))
+                sh, sw = img.shape[0], img.shape[1]
+                content = content.strip('\n').split()
                 # txt 用中心点和长宽表示矩形
-                x=float(content[1])*sw
-                y=float(content[2])*sh
-                w=float(content[3])*sw
-                h=float(content[4])*sh
-                new_dict={'name':classes[int(content[0])],
-                          'difficult':'0',
-                          'xmin':x+1-w/2,
-                          'ymin':y+1-h/2,
-                          'xmax':x+1+w/2,
-                          'ymax':y+1+h/2}
+                x = float(content[1]) * sw
+                y = float(content[2]) * sh
+                w = float(content[3]) * sw
+                h = float(content[4]) * sh
+                new_dict = {'name': classes[int(content[0])],
+                            'difficult': '0',
+                            'xmin': x + 1 - w / 2,
+                            'ymin': y + 1 - h / 2,
+                            'xmax': x + 1 + w / 2,
+                            'ymax': y + 1 + h / 2}
                 labeldicts.append(new_dict)
-                write_xml(img_id,label_xml_dir+label.strip('.txt')+'.xml',labeldicts)
+                write_xml(img_id, label_xml_dir + label.strip('.txt') + '.xml', labeldicts)
 
-def remove_format_file(path,format):
-    files=os.listdir(path)
+
+def remove_format_file(path, format):
+    files = os.listdir(path)
     for file in files:
-        file=file.split('.')
-        if(file[-1]==format):
-            os.remove(path+file[0]+'.'+format)
-        else:
-            continue
-def move_format_file(src,dst,format):
-    files=os.listdir(src)
-    for file in files:
-        file=file.split('.')
-        if(file[-1]==format):
-            src_file=src+file[0]+'.'+file[1]
-            dst_file=dst+file[0]+'.'+format
-            shutil.move(src_file,dst_file)
+        file = file.split('.')
+        if (file[-1] == format):
+            os.remove(path + file[0] + '.' + format)
         else:
             continue
 
-def xml_txt(src,dst):
+
+def move_format_file(src, dst, format):
+    files = os.listdir(src)
+    for file in files:
+        file = file.split('.')
+        if (file[-1] == format):
+            src_file = src + file[0] + '.' + file[1]
+            dst_file = dst + file[0] + '.' + format
+            shutil.move(src_file, dst_file)
+        else:
+            continue
+
+
+import glob
+
+
+def xml_txt(src, dst):
     try:
         import xml.etree.cElementTree as ET
     except ImportError:
         import xml.etree.ElementTree as ET
+
+    files = os.listdir(src)
+    for xml_file in files:
+        tree = ET.parse(src + xml_file)
+        filename = xml_file.split('.')[0] + '.txt'
+        f = open(dst + filename, 'w')
+        root = tree.getroot()
+        for member in root.findall('object'):
+            width = float(root.find('size')[0].text)
+            heith = float(root.find('size')[1].text)
+            xmin = float(member[4][0].text)
+            ymin = float(member[4][1].text)
+            xmax = float(member[4][2].text)
+            ymax = float(member[4][3].text)
+
+            xmid = round((xmin + xmax) / (2 * width), 8)
+            ymid = round((ymin + ymax) / (2 * heith), 8)
+            x_width = round((xmax - xmin) / width, 8)
+            y_height = round((ymax - ymin) / heith, 8)
+            content = '0 ' + str(xmid) + ' ' + str(ymid) + ' ' + str(x_width) + ' ' + str(y_height)
+            print(content)
+
+            f.write(content)
+            f.close()
 
 
 if __name__ == '__main__':
@@ -131,10 +163,7 @@ if __name__ == '__main__':
     # dst_dir="/home/sy/data/work/StandardCVSXImages/im_jpg/"
     # bmp_jpg(src_dir,dst_dir,'bmp','jpg')
 
-
-    src="/home/sy/data/work/eye/image_jpg/"
-    dst="/home/sy/data/work/eye/label_xml/"
-    move_format_file(src,dst,'xml')
-
-
-
+    src = "/home/sy/data/work/eye/label_xml/test/"
+    dst = "/home/sy/data/work/eye/label_txt/test/"
+    # move_format_file(src,dst,'xml')
+    xml_txt(src, dst)

@@ -4,8 +4,7 @@
 
 # 常见问题
 
-1. pip
-  question:
+1. pip question:
   
        ImportError: No module named 'pip._internal'
     执行pip3：
