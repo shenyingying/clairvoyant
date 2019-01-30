@@ -51,7 +51,10 @@
   
 9. 常用指令参考：
 
-       sudo ./darknet detect cfg/yolov3.cfg backup/yolov3.weights.1 data/dog.jpg -thresh 0.00001
+       sudo ./darknet detect cfg/yolov3.cfg backup/yolov3.weights data/dog.jpg -thresh 0.00001
+       sudo ./darknet detector train cfg/optic.data cfg/optic.cfg
+       sudo ./darknet detector test cfg/optic.data cfg/optic.cfg backup/optic.weight data/im0001.jpg
+       
        
   
    

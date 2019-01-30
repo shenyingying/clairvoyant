@@ -48,12 +48,12 @@ def txt_xml(img_dir, label_txt_dir, name_dir, label_xml_dir):
         root = ET.Element('annotation')
         ET.SubElement(root, 'folder').text = 'image'
         ET.SubElement(root, 'filename').text = imgname + '.jpg'
-        ET.SubElement(root, 'path').text = '/home/sy/data/work/StandardCVSXImages/image_jpg/' + imgname + '.jpg'
+        ET.SubElement(root, 'path').text = '/home/sy/data/work/eye/image_jpg/' + imgname + '.jpg'
         source = ET.SubElement(root, 'source')
         ET.SubElement(source, 'database').text = 'Unknown'
         size = ET.SubElement(root, 'size')
-        ET.SubElement(size, 'width').text = '1280'
-        ET.SubElement(size, 'height').text = '1024'
+        ET.SubElement(size, 'width').text = '700'
+        ET.SubElement(size, 'height').text = '605'
         ET.SubElement(size, 'depth').text = '3'
         ET.SubElement(root, 'segmented').text = '0'
         for labeldict in labeldicts:
@@ -148,8 +148,8 @@ def xml_txt(src, dst):
             content = '0 ' + str(xmid) + ' ' + str(ymid) + ' ' + str(x_width) + ' ' + str(y_height)
             print(content)
 
-            f.write(content)
-            f.close()
+        f.write(content)
+        f.close()
 
 def generate_train(pic_path,dst_file):
     f=open(dst_file,'w')
@@ -164,18 +164,19 @@ def generate_train(pic_path,dst_file):
 
 
 if __name__ == '__main__':
-    # img_dir ="/home/sy/data/work/StandardCVSXImages/image_jpg/"
-    # label_txt_dir="/home/sy/data/work/StandardCVSXImages/label_txt/"
-    # name_dir="/home/sy/data/work/StandardCVSXImages/classes.txt"
-    # label_xml_dir="/home/sy/data/work/StandardCVSXImages/label_xml/train/"
-    # txt_xml(img_dir,label_txt_dir,name_dir,label_xml_dir)
+    img_dir="/home/sy/data/work/eye/image_jpg/"
+    label_txt_dir="/home/sy/data/work/eye/label_txt/test/"
+    name_dir="/home/sy/data/work/eye/ssd-train/classes.txt"
+    label_xml_dir="/home/sy/data/work/eye/label_xml/test/"
+    txt_xml(img_dir,label_txt_dir,name_dir,label_xml_dir)
+    # move_format_file(img_dir,dst,"jpg")
 
     # src_dir="/home/sy/data/work/StandardCVSXImages/image_bmp/"
     # dst_dir="/home/sy/data/work/StandardCVSXImages/im_jpg/"
     # bmp_jpg(src_dir,dst_dir,'bmp','jpg')
 
-    src = "/home/sy/data/work/eye/image/"
-    dst = "/home/sy/code/project/darknet/data/optic_train.txt"
+    # src = "/home/sy/data/work/eye/image/"
+    # dst = "/home/sy/code/project/darknet/data/optic_train.txt"
     # move_format_file(src,dst,'xml')
     # xml_txt(src, dst)
-    generate_train(src,dst)
+    # generate_train(src,dst)
