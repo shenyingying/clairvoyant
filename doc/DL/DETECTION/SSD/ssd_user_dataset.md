@@ -8,7 +8,7 @@
    我的标注结果：
    ![label_result](pic/label_result.png)
 # convert .txt convert to .xml
-  `python txt_xml()` [code](../../../../trans.py)
+  `python txt_xml()` [code](../../../../transs.py)
 # convert .xml to.cvs
    `python xml_csv()` [code](../../../../xml_to_csv.py)
    ## csv_result

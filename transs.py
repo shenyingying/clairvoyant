@@ -151,26 +151,36 @@ def xml_txt(src, dst):
         f.write(content)
         f.close()
 
-def generate_train(pic_path,dst_file):
-    f=open(dst_file,'w')
-    files=os.listdir(pic_path)
+
+def generate_train(pic_path, dst_file):
+    f = open(dst_file, 'w')
+    files = os.listdir(pic_path)
     for file in files:
-        file=file.split('.')
-        if file[-1]=='jpg':
-            line=pic_path+file[0]+'.jpg\n'
+        file = file.split('.')
+        if file[-1] == 'jpg':
+            line = pic_path + file[0] + '.jpg\n'
             f.writelines(line)
     f.close()
 
 
+def test(pic):
+    mat = cv2.imread(pic)
+    out1=mat[...,[2,1,0]]
+    # cv2.cvtColor(mat, cv2.COLOR_RGB2BGR)
+    cv2.imshow(" ", out1)
+    cv2.waitKey()
+
 
 if __name__ == '__main__':
-    img_dir="/home/sy/data/work/eye/image_jpg/"
-    label_txt_dir="/home/sy/data/work/eye/label_txt/test/"
-    name_dir="/home/sy/data/work/eye/ssd-train/classes.txt"
-    label_xml_dir="/home/sy/data/work/eye/label_xml/test/"
-    txt_xml(img_dir,label_txt_dir,name_dir,label_xml_dir)
+    # img_dir="/home/sy/data/work/eye/image_jpg/"
+    # label_txt_dir="/home/sy/data/work/eye/label_txt/test/"
+    # name_dir="/home/sy/data/work/eye/ssd-train/classes.txt"
+    # label_xml_dir="/home/sy/data/work/eye/label_xml/test/"
+    # txt_xml(img_dir,label_txt_dir,name_dir,label_xml_dir)
     # move_format_file(img_dir,dst,"jpg")
 
+    pic = "/home/sy/data/work/eye/ssd_result/pics/im0133.jpg"
+    test(pic)
     # src_dir="/home/sy/data/work/StandardCVSXImages/image_bmp/"
     # dst_dir="/home/sy/data/work/StandardCVSXImages/im_jpg/"
     # bmp_jpg(src_dir,dst_dir,'bmp','jpg')
