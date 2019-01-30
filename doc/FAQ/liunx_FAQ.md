@@ -17,3 +17,22 @@
        
        curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
        python3.5 get-pip.py --force-reinstall`
+2. Ubuntun16.04下安装python3.4
+
+      a: [download](https://www.python.org/ftp/python/3.4.2/Python-3.4.2.tgz)
+      b: install
+      
+          tar -xzvf Python-3.4.2.tgz
+          cd Python-3.4.2
+          ./configure
+          make
+          sudo make install
+      c: config python3.4 (may need)
+      
+         sudo rm /usr/bin/python
+         sudo ln -s /usr/local/Python/Python3.4.2/python /usr/bin/python   
+      d: 错误 E: Sub-process /usr/bin/dpkg returned an error code (1
+      
+        cd /var/lib/dpkg
+        sudo mv info info.bak
+        sudo mkdir info
