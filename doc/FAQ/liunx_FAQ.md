@@ -6,17 +6,30 @@
 
 1. pip question:
   
-       ImportError: No module named 'pip._internal'
-    执行pip3：
+   error1:  ImportError: No module named 'pip._internal'
+   
+   执行pip3：
     
         import: not authorized `sys' @ error/constitute.c/WriteImage/1028.
         from: can't read /var/mail/pip
         /usr/bin/pip3: 行 11: 未预期的符号 `main.main' 附近有语法错误
         /usr/bin/pip3: 行 11: `    sys.exit(main.main())'
-   answer1:
+   ans:
        
        curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
        python3.5 get-pip.py --force-reinstall`
+   
+   error2:ImportError: cannot import name 'main'
+    
+    ![error3](pip/error3.png)
+    
+    ans:
+    
+         sudo gedit /usr/local/bin/pip3.4
+         
+      修改为：
+      
+      ![ans](pip/ans3.png)
        
 2. Ubuntun16.04下安装python3.4
 
@@ -72,5 +85,7 @@
      
          sudo apt-get install openssl
          sudo apt-get install openssl-dev
+         重新编译python
+      
      
 
