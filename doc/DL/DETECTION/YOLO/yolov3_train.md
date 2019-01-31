@@ -49,13 +49,21 @@
   
   ![trainlog]()
   
-9. 常用指令参考：
+9.常用指令参考：
 
        sudo ./darknet detect cfg/yolov3.cfg backup/yolov3.weights data/dog.jpg -thresh 0.00001
        sudo ./darknet detector train cfg/optic.data cfg/optic.cfg
        sudo ./darknet detector test cfg/optic.data cfg/optic.cfg backup/optic.weight data/im0001.jpg
        
-       
+10.测试结果 yolov3在检测方面比ssd效果要好的多，即使是yolov3-tiny
+
+[yolov3-weigth-of-optic](https://pan.baidu.com/s/1bW_OAYYx7PUet1jI7BSsmQ)
+
+[yolov3-result-of-optic](https://pan.baidu.com/s/1tMU4UMQGQsl591rgx4Owdg)
+
+[yolov3-tiny-weight-of-optic](https://pan.baidu.com/s/1tMU4UMQGQsl591rgx4Owdg)
+
+[yolov3-tiny-result-of-optic](https://pan.baidu.com/s/1tMU4UMQGQsl591rgx4Owdg)       
   
    
 
