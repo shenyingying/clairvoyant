@@ -27,9 +27,10 @@
     
          sudo gedit /usr/local/bin/pip3.4
          
+         
       修改为：
       
-      ![ans](pip/ans3.png)
+   ![ans](pip/ans3.png)
        
 2. Ubuntun16.04下安装python3.4
 
@@ -38,7 +39,7 @@
       
           tar -xzvf Python-3.4.2.tgz
           cd Python-3.4.2
-          ./configure
+          ./configure --enable-shared
           make
           sudo make install
       c: config python3.4 (may need)
