@@ -4,15 +4,23 @@
 # @Email   : shen222ying@163.com
 # @File    : tensor.py
 # @Software: PyCharm
+
+import os
 import tensorflow as tf
 from tensorflow.python.platform import gfile
 from tensorflow.python.framework import tensor_util
 from google.protobuf import text_format
+from tensorflow.python import pywrap_tensorflow
 
+def print_ckpt(Graph_pb):
+    reader=pywrap_tensorflow.NewCheckpointReader(Graph_pb)
+    var_to_shape_map=reader.get_variable_to_shape_map()
+    for key in var_to_shape_map:
+        print(key)
 
 def print_pb_val(Graph_pb):
     with tf.Session() as sess:
-        with open("", 'rb')as f:
+        with open(Graph_pb, 'rb')as f:
             graph_def = tf.GraphDef()
             graph_def.ParseFromString(f.read())
             print(graph_def)
@@ -29,5 +37,8 @@ def print_pb(Graph_pb):
 
 
 if __name__ == '__main__':
-    Graph_pb = "/home/sy/code/project/tensorflow-yolo-v3/frozen_darknet_yolov3_model.pb"
-    print_pb(Graph_pb)
+    Graph_pb = "/home/sy/code/project/tensorflow-yolo-v3/saved_model/model.ckpt"
+    # print_pb(Graph_pb)
+
+    Graph_pb=os.path.join(Graph_pb)
+    print_ckpt(Graph_pb)
