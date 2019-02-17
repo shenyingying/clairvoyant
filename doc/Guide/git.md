@@ -7,5 +7,6 @@
     git -d branch {branch name} # 删除这个分支
     git reset --hard commit (commit-id) # 上传了错误的commit,重置到之前的版本。
     git pull 
+    git add --all
     git commit -a <some illustrate>
     git push 
