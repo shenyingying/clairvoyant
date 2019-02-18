@@ -32,61 +32,62 @@
       
    ![ans](pip/ans3.png)
        
-2. Ubuntun16.04下安装python3.4
+2.Ubuntun16.04下安装python3.4
 
-      a: [download](https://www.python.org/ftp/python/3.4.2/Python-3.4.2.tgz)
-      b: install
-      
-          tar -xzvf Python-3.4.2.tgz
-          cd Python-3.4.2
-          ./configure --enable-shared
-          make
-          sudo make install
-      c: config python3.4 (may need)
-      
-         sudo rm /usr/bin/python
-         sudo ln -s /usr/local/Python/Python3.4.2/python /usr/bin/python   
-      d: 错误 E: Sub-process /usr/bin/dpkg returned an error code (1)
-      
-        cd /var/lib/dpkg
-        sudo mv info info.bak
-        sudo mkdir info
+  a: [download](https://www.python.org/ftp/python/3.4.2/Python-3.4.2.tgz)
+  b: install
+  
+      tar -xzvf Python-3.4.2.tgz
+      cd Python-3.4.2
+      ./configure --enable-shared
+      make
+      sudo make install
+  c: config python3.4 (may need)
+  
+     sudo rm /usr/bin/python
+     sudo ln -s /usr/local/Python/Python3.4.2/python /usr/bin/python   
+  d: 错误 E: Sub-process /usr/bin/dpkg returned an error code (1)
+  
+    cd /var/lib/dpkg
+    sudo mv info info.bak
+    sudo mkdir info
         
-3. 安装与python对应的pip：
+3.安装与python对应的pip：
 
-       由于项目需要，必须用python3.4,这时候需要修改与之对应的pip版本，不过按着 1 安装，一直提示找不到制定版本。索性重新安装下与python对应的pip：
- 
-    a：install setuptools [wget --no-check-certificate ](https://pypi.python.org/packages/source/s/setuptools/setuptools-19.6.tar.gz#md5=c607dd118eae682c44ed146367a17e26)
-      
+   由于项目需要，必须用python3.4,这时候需要修改与之对应的pip版本，不过按着 1 安装，一直提示找不到制定版本。索性重新安装下与python对应的pip：
+
+a：install setuptools [wget --no-check-certificate ](https://pypi.python.org/packages/source/s/setuptools/setuptools-19.6.tar.gz#md5=c607dd118eae682c44ed146367a17e26)
+  
        tar -zxvf setuotools
        cd setuptools-19.6
        python3.4 setup.py build
        python3.4 setup.py install
        若缺少什么包，重新安装后需要 cd python; make & make install; cd setuptool ...
-       
-    b:install pip [wget --no-check-certificate](https://pypi.python.org/packages/source/p/pip/pip-8.0.2.tar.gz#md5=3a73c4188f8dbad6a1e6f6d44d117eeb)
-    
+   
+b:install pip [wget --no-check-certificate](https://pypi.python.org/packages/source/p/pip/pip-8.0.2.tar.gz#md5=3a73c4188f8dbad6a1e6f6d44d117eeb)
+
        tar -zxvf pip-8.0.2.tar.gz
        cd pip-8.0.2
        python3.4 setup.py build
        python3.4 setup.py install
-       
-    c:测试 一般容易出现`ImportError: cannot import name 'HTTPSHandler'
-     ![HTTP](pip/error2.png)
-     
-     继续搜网上很多说是用yum 安装 openssl openssl-dev,接下来就没有接下来了
-     
-     error1：python 版本错误
-     
-     ![python](pip/error1.png)
-     
-       因为yum是python2写的，在对应位置修改成python2.7
-     
-     error2：Ubuntu 内核与yum冲突
-     
-         sudo apt-get install openssl
-         sudo apt-get install openssl-dev
-         重新编译python
+   
+c:测试 一般容易出现`ImportError: cannot import name 'HTTPSHandler'
+ ![HTTP](pip/error2.png)
+ 
+ 继续搜网上很多说是用yum 安装 openssl openssl-dev,接下来就没有接下来了
+ 
+ error1：python 版本错误
+ 
+ ![python](pip/error1.png)
+ 
+   因为yum是python2写的，在对应位置修改成python2.7
+ 
+ error2：Ubuntu 内核与yum冲突
+ 
+     sudo apt-get install openssl
+     sudo apt-get install openssl-dev
+     重新编译python
       
-     
+ 4.error while loading shared libraries: xxx.so.x" 错误的原因和解决办法 [link](https://www.cnblogs.com/Anker/p/3209876.html)  
 
+![](pic/ans4.png)
