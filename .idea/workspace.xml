@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6cbfdce9-b4e0-47bf-aeb8-21a9d6d65489" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/doc/DL/DETECTION/SSD/data/Makefile.arm-android-gcc4.9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/work.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/DL/basic-knowledge.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/DL/basic-knowledge.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/FAQ/liunx_FAQ.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/FAQ/liunx_FAQ.md" afterDir="false" />
+    <list default="true" id="6cbfdce9-b4e0-47bf-aeb8-21a9d6d65489" name="Default Changelist" comment="some pic">
+      <change afterPath="$PROJECT_DIR$/doc/DL/DETECTION/SSD/pic/snpe-c++-transplant.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +32,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../project/snpe-1.22.0.212/models/inception_v3/scripts/show_inceptionv3_classifications.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="690">
               <caret line="49" column="77" selection-start-line="49" selection-start-column="77" selection-end-line="49" selection-end-column="92" />
               <folding>
                 <element signature="e#143#158#0" expanded="true" />
@@ -49,8 +45,8 @@
         <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/SNPE-CXX-transplant.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="465">
-                <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+              <first_editor relative-caret-position="600">
+                <caret line="40" selection-start-line="40" selection-end-line="40" />
               </first_editor>
               <second_editor />
             </state>
@@ -61,8 +57,8 @@
         <entry file="file://$PROJECT_DIR$/doc/FAQ/liunx_FAQ.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="625">
-                <caret line="92" column="17" lean-forward="true" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
+              <first_editor relative-caret-position="1380">
+                <caret line="92" column="17" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
               </first_editor>
               <second_editor />
             </state>
@@ -86,7 +82,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="255">
-                <caret line="17" column="63" lean-forward="true" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
+                <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
               </first_editor>
               <second_editor />
             </state>
@@ -107,8 +103,8 @@
         <entry file="file://$PROJECT_DIR$/doc/DL/basic-knowledge.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="93">
-                <caret line="116" column="20" lean-forward="true" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="20" />
+              <first_editor relative-caret-position="555">
+                <caret line="82" column="1" lean-forward="true" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
               </first_editor>
               <second_editor />
             </state>
@@ -120,7 +116,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="120">
-                <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+                <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
               </first_editor>
               <second_editor />
             </state>
@@ -261,7 +257,21 @@
               <item name="clairvoyant" type="b2602c69:ProjectViewProjectNode" />
               <item name="clairvoyant" type="462c0819:PsiDirectoryNode" />
               <item name="doc" type="462c0819:PsiDirectoryNode" />
+              <item name="DL" type="462c0819:PsiDirectoryNode" />
+              <item name="pic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clairvoyant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clairvoyant" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
               <item name="FAQ" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clairvoyant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clairvoyant" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+              <item name="FAQ" type="462c0819:PsiDirectoryNode" />
+              <item name="pic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="clairvoyant" type="b2602c69:ProjectViewProjectNode" />
@@ -377,20 +387,7 @@
       <workItem from="1548897521048" duration="24894000" />
       <workItem from="1550203158300" duration="21767000" />
       <workItem from="1550452791828" duration="22503000" />
-    </task>
-    <task id="LOCAL-00011" summary="again">
-      <created>1548223744175</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1548223744175</updated>
-    </task>
-    <task id="LOCAL-00012" summary="change the user_dataset">
-      <created>1548223899429</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1548223899429</updated>
+      <workItem from="1550489145984" duration="249000" />
     </task>
     <task id="LOCAL-00013" summary="the tools of precosses data">
       <created>1548223978410</created>
@@ -721,11 +718,25 @@
       <option name="project" value="LOCAL" />
       <updated>1550479687493</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="snpe c++ transplant">
+      <created>1550489282798</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1550489282799</updated>
+    </task>
+    <task id="LOCAL-00061" summary="some pic">
+      <created>1550489356750</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1550489356750</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194120000" />
+    <option name="totallyTimeSpent" value="194369000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -739,7 +750,7 @@
   <component name="ToolWindowManager">
     <frame x="2017" y="93" width="1743" height="939" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11504425" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.218107" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -752,8 +763,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.6350941" weight="0.6321559" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.40294984" side_tool="true" visible="true" weight="0.20610687" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.59705013" visible="true" weight="0.20610687" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.40388006" side_tool="true" visible="true" weight="0.20554855" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.59611994" visible="true" weight="0.20554855" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49759904" weight="0.326972" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -766,7 +777,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="pic" />
     <MESSAGE value="android_FAQ" />
     <MESSAGE value="JDK_ANDROID.MD" />
     <MESSAGE value="some change" />
@@ -791,7 +801,8 @@
     <MESSAGE value="print .pb value" />
     <MESSAGE value="--enable-shared" />
     <MESSAGE value="snpe c++ transplant" />
-    <option name="LAST_COMMIT_MESSAGE" value="snpe c++ transplant" />
+    <MESSAGE value="some pic" />
+    <option name="LAST_COMMIT_MESSAGE" value="some pic" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1087,6 +1098,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../project/snpe-1.22.0.212/models/inception_v3/scripts/show_inceptionv3_classifications.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="49" column="77" selection-start-line="49" selection-start-column="77" selection-end-line="49" selection-end-column="92" />
+          <folding>
+            <element signature="e#143#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/SNPE-CXX-transplant.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="600">
+            <caret line="40" selection-start-line="40" selection-end-line="40" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/FAQ/liunx_FAQ.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1380">
+            <caret line="92" column="17" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/FAQ/snpe_FAQ.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="15">
+            <caret line="1" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/FAQ/android_FAQ.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="255">
+            <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/FAQ/tensorflow_FAQ.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/work.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/doc/DL/image_process in deeplearning.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1107,79 +1186,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/work.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
-            <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/FAQ/tensorflow_FAQ.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/FAQ/android_FAQ.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="255">
-            <caret line="17" column="63" lean-forward="true" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/FAQ/snpe_FAQ.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="15">
-            <caret line="1" selection-start-line="1" selection-end-line="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/FAQ/liunx_FAQ.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="625">
-            <caret line="92" column="17" lean-forward="true" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../project/snpe-1.22.0.212/models/inception_v3/scripts/show_inceptionv3_classifications.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="49" column="77" selection-start-line="49" selection-start-column="77" selection-end-line="49" selection-end-column="92" />
-          <folding>
-            <element signature="e#143#158#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/SNPE-CXX-transplant.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="465">
-            <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/doc/DL/basic-knowledge.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="93">
-            <caret line="116" column="20" lean-forward="true" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="20" />
+          <first_editor relative-caret-position="555">
+            <caret line="82" column="1" lean-forward="true" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
           </first_editor>
           <second_editor />
         </state>
