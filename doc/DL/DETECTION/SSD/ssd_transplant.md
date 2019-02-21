@@ -61,6 +61,9 @@
    
    for snpe didn't support all the layer in GPU,so you should add `--enable_cpu_fallback`
  4.show the result [code](../../../../scripts/show_ssd_detection.py)
+ 
+    
+      python3 show_ssd_detection.py -i data/cropped/raw.txt -o output -l data/labels.txt
 
 # result in 820 chip
 

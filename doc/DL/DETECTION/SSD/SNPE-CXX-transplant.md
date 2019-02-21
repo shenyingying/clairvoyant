@@ -32,7 +32,21 @@
 
 
 ![](pic/snpe-c++-transplant.png)
-     
+
+5.C++实现snpe所需数据 [code](https://pan.baidu.com/s/1txfrN7S_JtM8DTXoYgfxCQ)
+
+
+     这个困扰了我一天，其实很简单，python 中np.transpose(A,(0,2,1))可以实现，C++中用for循环可实现数组顺序颠倒：
+   下面为想法思路和代码：
+   
+   ![](pic/c++rawscript.jpg)
+   
+   ![](pic/rawcode.png)
+   
+   
+   结果展示和python生成的raw运行结果一致：
+   
+   ![](pic/snpec++rawtest.png)
 
      
 

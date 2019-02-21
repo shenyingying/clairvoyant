@@ -165,10 +165,84 @@ def generate_train(pic_path, dst_file):
 
 def test(pic):
     mat = cv2.imread(pic)
-    out1=mat[...,[2,1,0]]
+    out1 = mat[..., [2, 1, 0]]
     # cv2.cvtColor(mat, cv2.COLOR_RGB2BGR)
     cv2.imshow(" ", out1)
     cv2.waitKey()
+
+import cv2
+def raw_pic(pic):
+    img=np.ones((2,4),dtype=np.uint8)
+    img[0,0]=100
+    img[0,1]=150
+    img[0,2]=255
+    cv2.imshow("img",img)
+    cv2.waitKey()
+    brg_img=cv2.cvtColor(img,cv2.COLOR_GRAY2BGR)
+    cv2.imshow("brg_img",brg_img)
+    cv2.waitKey()
+
+    print (img)
+    print ("brg_hwc:")
+    print (brg_img)
+    print (brg_img.shape[0],brg_img.shape[1],brg_img.shape[2])
+
+    print ("brg_img_chw:")
+    brg_img_chw=np.transpose(brg_img,(2,0,1))
+    print (brg_img_chw)
+    print (brg_img_chw.shape[0],brg_img_chw.shape[1],brg_img_chw.shape[2])
+
+
+
+    mat_pic_dim = (3, 2, 2)
+    mat_dim = (2, 2)
+
+    mat_r = np.empty(mat_dim)
+    mat_r.fill(1)
+    mat_g = np.empty(mat_dim)
+    mat_g.fill(2)
+    mat_b = np.empty(mat_dim)
+    mat_b.fill(3)
+
+    mat = np.empty(mat_pic_dim)
+
+    mat[0] = mat_r
+    mat[1] = mat_g
+    mat[2] = mat_b
+    print mat
+
+    mat = np.transpose(mat, (1, 2, 0))
+    print mat
+
+    # print mat_b
+    # print mat_g
+    # print mat_r
+    # mat={1,2,3,4,5,6,7,8,9,10,11,12}
+    #
+    mat = cv2.imread(pic)
+    print (mat.shape[0], mat.shape[1], mat.shape[2])
+    # print (mat)
+
+
+import numpy as np
+import os
+
+
+def np_file():
+    a = np.arange(0, 12)
+    print (a)
+    a.reshape(3, 4)
+    print ("a:")
+    print (a)
+    a.tofile("a.raw")
+    b = np.fromfile("a.raw", dtype=np.int)
+    print ("b:")
+    print (b)
+    b.reshape(3, 4)
+    print (b)
+
+    np.float
+    np.float32
 
 
 if __name__ == '__main__':
@@ -178,9 +252,13 @@ if __name__ == '__main__':
     # label_xml_dir="/home/sy/data/work/eye/label_xml/test/"
     # txt_xml(img_dir,label_txt_dir,name_dir,label_xml_dir)
     # move_format_file(img_dir,dst,"jpg")
+    # np_file()
+
 
     pic = "/home/sy/data/work/eye/ssd_result/pics/im0133.jpg"
-    test(pic)
+    raw_pic(pic)
+
+    # raw_pic(pic)
     # src_dir="/home/sy/data/work/StandardCVSXImages/image_bmp/"
     # dst_dir="/home/sy/data/work/StandardCVSXImages/im_jpg/"
     # bmp_jpg(src_dir,dst_dir,'bmp','jpg')
