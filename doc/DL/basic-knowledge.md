@@ -167,4 +167,5 @@
 |随机relu|![](activate/rrelu.png)|||
 |指数化relu|![](activate/erelu.png)|||
 
+
  
