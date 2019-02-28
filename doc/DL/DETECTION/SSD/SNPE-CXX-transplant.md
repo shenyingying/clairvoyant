@@ -15,6 +15,7 @@
   
      export SNPE_ROOT=/home/sy/code/project/snpe-1.22.0.212 指定snpe路径
      make -f Makefile.arm-android-gcc4.9                    编译文件
+     
 3.把所 {需包} adb push 到板子中执行命令：
 
  

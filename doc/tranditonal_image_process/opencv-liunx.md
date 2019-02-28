@@ -11,7 +11,7 @@
      sudo make 
      sudo make install
      
-3. 配置 
+3.配置 
 
 
      sudo gedit /etc/ld.so.conf.d/opencv.conf 此时是空的，写进入 /usr/local/lib  //将opencv库添加到路径，从而可以让系统找到
@@ -24,15 +24,55 @@
      source /etc/bash.bashrc  //使bash配置生效
      sudo updatedab           //更新
      
-4. guide：
+4.guide：
    
    
         cd opencv-3.4.0/smaples/cpp/example_cmake 
         sudo gedit CMakeLists.txt //可以模仿改文件写 CMakeList.txt
         
-5. openMP [cmakelist](file/CMakeLists.txt)
-6. openCL [envir](file/main.cpp)
-7. cfc [code](https://pan.baidu.com/s/1CgO-R5d0sF4I2Nlq4MTzRA)
+# 眼底相机cfc code 移植到820 
+1.移植环境搭建：
+
+2.code：
+  
+  openMP [cmakelist](file/CMakeLists.txt)
+ 
+  openCL [envir](file/main.cpp)
+  
+  ![](file/opecl.png)  
+    
+      
+     启动OCL模块主要步骤：
+     1.注册全局OpenCL设备;
+     2.把内存的数据上传到显存;
+     3.在OpenCL设备上进行计算;
+     4.把显存的数据下载到内存;
+     5.在host上进行剩余的运算;
+      
+     运用OCL几个注意事项：
+     
+     TIP1：尽量减少在opencl函数调用之间加入数据传输指令，这是因为上传下载操作会严重影响核函数在命令队列上的调度，尤其是下载操作;
+        这个操作被设计成同步指令。有的函数有隐式的下载调用，比如cv::ocl::sum,应尽量调整其执行顺序，必要的时候使用AMD CodeXL
+        蓝下命令队列的执行密度;
+     TIP2：目前OCL模块编译速度要比CUDA模块快很多，但运行时，OCL模块在函数第一次调用时会有明显的延迟，但CUDA没有，因为CUDA模块在OpenCV
+        编译会把核函数编译成cubin文件，这样运行时不会出现延时启动现象;因为OpenCL，我们不能在OCL函数运行前旧确定核函数的编译选项和目标
+        运行平台，因此只能在运行时进行核函数编译，作为一个补救措施，我们加入一个功能，OCL在第一次运行时把这以此编译好的核函数二进制保存到磁盘，
+        这样第二次旧避免了编译造成的启动延时。
+        
+  
+  cfc [code](https://pan.baidu.com/s/1CgO-R5d0sF4I2Nlq4MTzRA)
+
+3.result
+
+  |  items  | refine | gussian opencv |  
+  |:--------|:-------|:---------------|
+  |no acce  | 450ms| 570ms |
+  |OpenMP|  350ms| 350ms |
+  |OpenCL| | |    
+  
+
+
+
 
 
 
