@@ -63,16 +63,36 @@
   cfc [code](https://pan.baidu.com/s/1CgO-R5d0sF4I2Nlq4MTzRA)
 
 3.result
-
+ 
+ 
+    图的尺寸为1280×1024;
+  
   |  items  | refine | gussian opencv |  
   |:--------|:-------|:---------------|
   |no acce  | 450ms| 570ms |
   |OpenMP|  350ms| 350ms |
-  |OpenCL| | |    
+  |OpenCL| 经验证无效 |  经验证无效|  
   
+  
+     
+     待验证，用UMat的方式验证测试时间;
+
+# cvs 移植 到 820 芯片的运行结果：
 
 
+  
+  |  items  | tradition location | ssd location | cvs-rewrite| 
+  |:--------|:-------|:---------------|:----------|
+  |饱和度评估并保存      | 70ms| 450ms |100ms|
+  |同时运行6张图片并保存  | 400ms|1.6s  |600~800ms|
+  |饱和度评估未保存       | 20ms| 350ms |80ms|
+  |同时运行6张图片未保存  | 150~200ms|600~800ms|550~600ms|
+  
+   
+    可提升空间：保存snpe所需数据（60ms）;建立网络（），计算{GPU}（40+ms）
 
+  
+     
 
 
 
