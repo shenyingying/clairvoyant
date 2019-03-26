@@ -91,3 +91,11 @@ c:测试 一般容易出现`ImportError: cannot import name 'HTTPSHandler'
  4.error while loading shared libraries: xxx.so.x" 错误的原因和解决办法 [link](https://www.cnblogs.com/Anker/p/3209876.html)  
 
 ![](pic/ans4.png)
+
+5.ImportError: No module named setuptools
+
+
+     wget --no-check-certificate  https://pypi.python.org/packages/source/s/setuptools/setuptools-0.6c11.tar.gz
+     tar -zxvf setuptools-0.6c11.tar.gz
+     sudo python setup.py install
+
