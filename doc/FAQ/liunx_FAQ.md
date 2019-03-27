@@ -99,3 +99,30 @@ c:测试 一般容易出现`ImportError: cannot import name 'HTTPSHandler'
      tar -zxvf setuptools-0.6c11.tar.gz
      sudo python setup.py install
 
+6.Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-install-5jEQ8s/gast/
+ 
+ ![](pic/eggans1.png)
+ 
+ ans: 升级setuptools，一开始一直不好使用
+ pip list ：
+ ![](pic/eggans2.png)
+ 
+ certifi setuptools distribute 都需要升级到最新的
+ 
+ certifi :
+ 
+ [download](https://pypi.org/project/certifi/#files) 下载 install from source 
+ 
+ 
+     tar -zxvf 
+     sudo python setup.py install 
+     
+ setuptools:
+ 
+ 
+     sudo pip install --upgrade setuptools==40
+ distribute:
+ 
+     
+     pip install --upgrade distribute
+ 

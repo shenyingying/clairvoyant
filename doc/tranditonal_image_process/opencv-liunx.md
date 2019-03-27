@@ -1,5 +1,6 @@
 # install opencv in liunx
-1. download
+[链接]([code](https://blog.csdn.net/cocoaqin/article/details/78163171))
+1. download 
    [sources](https://opencv.org/releases.html)  下载 3.4版本的Sources
 2. 编译
 
@@ -22,7 +23,7 @@
           export PKG_CONFIG_PATH 
      
      source /etc/bash.bashrc  //使bash配置生效
-     sudo updatedab           //更新
+     sudo updatedb           //更新
      
 4.guide：
    
