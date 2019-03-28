@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cbfdce9-b4e0-47bf-aeb8-21a9d6d65489" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/doc/FAQ/pic/eggans1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/FAQ/pic/eggans2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd-logic-flow.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/FAQ/liunx_FAQ.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/FAQ/python_FAQ.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transs.py" beforeDir="false" afterPath="$PROJECT_DIR$/transs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml_to_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/xml_to_csv.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +47,18 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/doc/FAQ/python_FAQ.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="661">
+                <caret line="126" column="37" selection-start-line="126" selection-start-column="37" selection-end-line="126" selection-end-column="37" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd_user_dataset.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -68,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/xml_to_csv.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
-              <caret line="36" column="11" lean-forward="true" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+              <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
               <folding>
                 <element signature="e#161#170#0" expanded="true" />
               </folding>
@@ -80,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/transs.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="626">
-              <caret line="270" column="35" lean-forward="true" selection-start-line="270" selection-start-column="35" selection-end-line="270" selection-end-column="35" />
+              <caret line="270" column="35" selection-start-line="270" selection-start-column="35" selection-end-line="270" selection-end-column="35" />
               <folding>
                 <element signature="e#155#164#0" expanded="true" />
                 <element signature="e#383#813#0" />
@@ -98,7 +105,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generate_tfrecord.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -113,8 +120,8 @@
         <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd_runtime.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="240">
-                <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+              <first_editor relative-caret-position="530">
+                <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
               </first_editor>
               <second_editor />
             </state>
@@ -122,34 +129,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd_test.md">
+        <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/data/pipeline.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd-logic-flow.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="135">
-                <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              <first_editor relative-caret-position="15">
+                <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../project/snpe-1.24.0.256/models/inception_v3/scripts/create_inceptionv3_raws.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="36" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="36" />
-              <folding>
-                <element signature="e#147#162#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/lib/python3/dist-packages/PIL/Image.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="165" column="10" selection-start-line="165" selection-start-column="10" selection-end-line="165" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -187,7 +182,6 @@
         <option value="$PROJECT_DIR$/log" />
         <option value="$PROJECT_DIR$/record/user_git.md" />
         <option value="$PROJECT_DIR$/record/train_question.md" />
-        <option value="$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd_runtime.md" />
         <option value="$PROJECT_DIR$/doc/Guide/snpe_install.md" />
         <option value="$PROJECT_DIR$/doc/Guide/java_android_install.md" />
         <option value="$PROJECT_DIR$/doc/Guide/jdk_android_install.md" />
@@ -228,14 +222,16 @@
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/transs.py" />
         <option value="$PROJECT_DIR$/xml_to_csv.py" />
+        <option value="$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd_runtime.md" />
+        <option value="$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd-logic-flow.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="2070" />
-    <option name="y" value="84" />
-    <option name="width" value="1561" />
-    <option name="height" value="994" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1985" />
+    <option name="y" value="-4" />
+    <option name="width" value="1855" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -278,6 +274,21 @@
               <item name="DL" type="462c0819:PsiDirectoryNode" />
               <item name="DETECTION" type="462c0819:PsiDirectoryNode" />
               <item name="SSD" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clairvoyant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clairvoyant" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+              <item name="DL" type="462c0819:PsiDirectoryNode" />
+              <item name="DETECTION" type="462c0819:PsiDirectoryNode" />
+              <item name="SSD" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clairvoyant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clairvoyant" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+              <item name="FAQ" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="clairvoyant" type="b2602c69:ProjectViewProjectNode" />
@@ -411,7 +422,7 @@
       <workItem from="1551315094046" duration="12720000" />
       <workItem from="1553586984026" duration="4676000" />
       <workItem from="1553658993884" duration="8049000" />
-      <workItem from="1553674740851" duration="15118000" />
+      <workItem from="1553674740851" duration="17178000" />
     </task>
     <task id="LOCAL-00015" summary="android_FAQ">
       <created>1548227223222</created>
@@ -760,7 +771,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="293053000" />
+    <option name="totallyTimeSpent" value="295113000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -772,15 +783,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2070" y="84" width="1561" height="994" extended-state="0" />
+    <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18836749" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19645822" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49970186" weight="0.32941177" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.59616655" visible="true" weight="0.19381689" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.59616655" weight="0.19381689" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.82678473" weight="0.264232" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -788,8 +799,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.6350941" weight="0.6321559" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.40383345" side_tool="true" visible="true" weight="0.19381689" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.71167684" weight="0.11278196" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2888766" side_tool="true" visible="true" weight="0.2019334" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.7111234" visible="true" weight="0.2019334" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4969563" weight="0.3265306" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -846,16 +857,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/YOLO/yolov3_test.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="45">
-            <caret line="3" column="47" lean-forward="true" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/YOLO/yolov3_transplant.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1097,33 +1098,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/FAQ/python_FAQ.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1890">
-            <caret line="126" column="37" selection-start-line="126" selection-start-column="37" selection-end-line="126" selection-end-column="37" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/data/pipeline.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd_runtime.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="240">
-            <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd_test.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1174,7 +1148,7 @@
     <entry file="file://$PROJECT_DIR$/transs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="626">
-          <caret line="270" column="35" lean-forward="true" selection-start-line="270" selection-start-column="35" selection-end-line="270" selection-end-column="35" />
+          <caret line="270" column="35" selection-start-line="270" selection-start-column="35" selection-end-line="270" selection-end-column="35" />
           <folding>
             <element signature="e#155#164#0" expanded="true" />
             <element signature="e#383#813#0" />
@@ -1194,7 +1168,7 @@
     <entry file="file://$PROJECT_DIR$/xml_to_csv.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
-          <caret line="36" column="11" lean-forward="true" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+          <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
           <folding>
             <element signature="e#161#170#0" expanded="true" />
           </folding>
@@ -1217,6 +1191,43 @@
           <folding>
             <element signature="e#445#454#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd_runtime.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="530">
+            <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/data/pipeline.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd-logic-flow.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="15">
+            <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/FAQ/python_FAQ.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="661">
+            <caret line="126" column="37" selection-start-line="126" selection-start-column="37" selection-end-line="126" selection-end-column="37" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
