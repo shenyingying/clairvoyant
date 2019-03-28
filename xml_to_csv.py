@@ -10,8 +10,8 @@ import glob
 import pandas as pd
 import xml.etree.ElementTree as ET
 
-os.chdir('/home/sy/data/work/eye/label_xml/test/')
-path = '/home/sy/data/work/eye/label_xml/test/'
+os.chdir('/home/sy/data/cvs/label/test/')
+path = '/home/sy/data/cvs/label/test/'
 
 def xml_to_csv(path):
     xml_list = []
@@ -37,7 +37,7 @@ def xml_to_csv(path):
 def main():
     image_path = path
     xml_df = xml_to_csv(image_path)
-    xml_df.to_csv('/home/sy/data/work/eye/ssd-train/optic_test.csv', index=None)
+    xml_df.to_csv('/home/sy/data/cvs/label/test.csv', index=None)
     print('Successfully converted xml to csv.')
 
 

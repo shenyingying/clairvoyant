@@ -13,6 +13,8 @@ import numpy as np
 import shutil
 
 
+
+
 # convert pic with src_format to dst_format
 def bmp_jpg(src_dir, dst_dir, src_format, dst_format):
     files = os.listdir(src_dir)
@@ -209,10 +211,10 @@ def raw_pic(pic):
     mat[0] = mat_r
     mat[1] = mat_g
     mat[2] = mat_b
-    print mat
+    print (mat)
 
     mat = np.transpose(mat, (1, 2, 0))
-    print mat
+    print (mat)
 
     # print mat_b
     # print mat_g
@@ -246,6 +248,7 @@ def np_file():
 
 
 if __name__ == '__main__':
+
     # img_dir="/home/sy/data/work/eye/image_jpg/"
     # label_txt_dir="/home/sy/data/work/eye/label_txt/test/"
     # name_dir="/home/sy/data/work/eye/ssd-train/classes.txt"
@@ -255,16 +258,17 @@ if __name__ == '__main__':
     # np_file()
 
 
-    pic = "/home/sy/data/work/eye/ssd_result/pics/im0133.jpg"
-    raw_pic(pic)
+    # pic = "/home/sy/data/work/eye/ssd_result/pics/im0133.jpg"
+    # raw_pic(pic)
 
     # raw_pic(pic)
-    # src_dir="/home/sy/data/work/StandardCVSXImages/image_bmp/"
-    # dst_dir="/home/sy/data/work/StandardCVSXImages/im_jpg/"
+    # src_dir="/home/sy/data/cvs/padding/15_padding/"
+    # dst_dir="/home/sy/data/cvs/label"
     # bmp_jpg(src_dir,dst_dir,'bmp','jpg')
 
-    # src = "/home/sy/data/work/eye/image/"
-    # dst = "/home/sy/code/project/darknet/data/optic_train.txt"
-    # move_format_file(src,dst,'xml')
+    src = "/home/sy/data/cvs/padding/15_padding/"
+    dst = "/home/sy/data/cvs/label/"
+    move_format_file(src,dst,'xml')
+
     # xml_txt(src, dst)
     # generate_train(src,dst)

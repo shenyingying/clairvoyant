@@ -40,6 +40,7 @@
     在<刚才下载的path>/models/research/执行 export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
     或者 sudo gedit ~/.bashrc 下面添加
     export PYTHONPATH=$PYTHONPATH:<刚才下载的path>/models/research:<刚才下载的path>/models/research/slim
+    source ~/.bashrc
   6.测试：
       
     在<刚才下载的path>/models/research 执行

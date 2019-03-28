@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cbfdce9-b4e0-47bf-aeb8-21a9d6d65489" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/doc/FAQ/pic/eggans1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/FAQ/pic/eggans2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/FAQ/liunx_FAQ.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/FAQ/liunx_FAQ.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/tranditonal_image_process/opencv-liunx.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/tranditonal_image_process/opencv-liunx.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/FAQ/liunx_FAQ.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/FAQ/python_FAQ.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transs.py" beforeDir="false" afterPath="$PROJECT_DIR$/transs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml_to_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/xml_to_csv.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/clairvoyant$test.coverage" NAME="test Coverage Results" MODIFIED="1553587152811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/clairvoyant$test.coverage" NAME="test Coverage Results" MODIFIED="1553754749904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -32,56 +36,16 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/tranditonal_image_process/opencv-liunx.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="465">
-                <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/DL/basic-knowledge.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="2775">
-                <caret line="185" column="5" selection-start-line="185" selection-start-column="5" selection-end-line="185" selection-end-column="5" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="30">
-                <caret line="2" selection-start-line="2" selection-end-line="2" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="15" selection-start-column="15" selection-end-column="15" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/Guide/git.md">
+        <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd_train.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="165">
-                <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <first_editor relative-caret-position="210">
+                <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
               </first_editor>
               <second_editor />
             </state>
@@ -89,21 +53,68 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/Guide/jdk_android_install.md">
+        <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd_user_dataset.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor relative-caret-position="15">
+                <caret line="1" column="27" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="55" />
+              </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xml_to_csv.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="36" column="11" lean-forward="true" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+              <folding>
+                <element signature="e#161#170#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/transs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="626">
+              <caret line="270" column="35" lean-forward="true" selection-start-line="270" selection-start-column="35" selection-end-line="270" selection-end-column="35" />
+              <folding>
+                <element signature="e#155#164#0" expanded="true" />
+                <element signature="e#383#813#0" />
+                <element signature="e#855#1068#0" />
+                <element signature="e#1171#3899#0" />
+                <element signature="e#3944#4143#0" />
+                <element signature="e#4528#5581#0" />
+                <element signature="e#4708#5581#0" />
+                <element signature="e#5628#5862#0" />
+                <element signature="e#5884#6023#0" />
+                <element signature="e#6058#7140#0" />
+                <element signature="e#7189#7433#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/doc/FAQ/liunx_FAQ.md">
+        <entry file="file://$PROJECT_DIR$/generate_tfrecord.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#445#454#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd_runtime.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="586">
-                <caret line="126" column="37" selection-start-line="126" selection-start-column="37" selection-end-line="126" selection-end-column="37" />
+              <first_editor relative-caret-position="240">
+                <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
               </first_editor>
               <second_editor />
             </state>
@@ -111,21 +122,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/Guide/cuda_cudnn_tensorflow_install.md">
+        <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd_test.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/FAQ/android_FAQ.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="255">
-                <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
+              <first_editor relative-caret-position="135">
+                <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
               </first_editor>
               <second_editor />
             </state>
@@ -133,13 +134,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd_transplant.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1005">
-                <caret line="67" column="20" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/../../project/snpe-1.24.0.256/models/inception_v3/scripts/create_inceptionv3_raws.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="36" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="36" />
+              <folding>
+                <element signature="e#147#162#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/lib/python3/dist-packages/PIL/Image.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="165" column="10" selection-start-line="165" selection-start-column="10" selection-end-line="165" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -197,7 +207,6 @@
         <option value="$PROJECT_DIR$/doc/FAQ/tensorflow_FAQ.md" />
         <option value="$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd_user_dataset.md" />
         <option value="$PROJECT_DIR$/../../project/models/research/generate_tfrecord.py" />
-        <option value="$PROJECT_DIR$/xml_to_csv.py" />
         <option value="$PROJECT_DIR$/doc/DL/DETECTION/YOLO/yolov3_test.md" />
         <option value="$PROJECT_DIR$/doc/DL/image_process in deeplearning.md" />
         <option value="$PROJECT_DIR$/doc/DL/DETECTION/YOLO/yolov3_train.md" />
@@ -209,21 +218,22 @@
         <option value="$PROJECT_DIR$/doc/work.md" />
         <option value="$PROJECT_DIR$/../../project/snpe-1.22.0.212/models/inception_v3/scripts/show_inceptionv3_classifications.py" />
         <option value="$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd_transplant.md" />
-        <option value="$PROJECT_DIR$/transs.py" />
         <option value="$PROJECT_DIR$/../../project/snpe-1.22.0.212/models/ssd/scripts/show_ssd_detection.py" />
         <option value="$PROJECT_DIR$/doc/Guide/install-opencv-liunx.md" />
         <option value="$PROJECT_DIR$/doc/Guide/opencv-liunx.md" />
         <option value="$PROJECT_DIR$/doc/DL/DETECTION/SSD/SNPE-CXX-transplant.md" />
         <option value="$PROJECT_DIR$/doc/DL/basic-knowledge.md" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/doc/tranditonal_image_process/opencv-liunx.md" />
         <option value="$PROJECT_DIR$/doc/FAQ/liunx_FAQ.md" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/transs.py" />
+        <option value="$PROJECT_DIR$/xml_to_csv.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2123" />
-    <option name="y" value="44" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2070" />
+    <option name="y" value="84" />
     <option name="width" value="1561" />
     <option name="height" value="994" />
   </component>
@@ -252,14 +262,22 @@
               <item name="clairvoyant" type="b2602c69:ProjectViewProjectNode" />
               <item name="clairvoyant" type="462c0819:PsiDirectoryNode" />
               <item name="doc" type="462c0819:PsiDirectoryNode" />
-              <item name="FAQ" type="462c0819:PsiDirectoryNode" />
+              <item name="DL" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="clairvoyant" type="b2602c69:ProjectViewProjectNode" />
               <item name="clairvoyant" type="462c0819:PsiDirectoryNode" />
               <item name="doc" type="462c0819:PsiDirectoryNode" />
-              <item name="FAQ" type="462c0819:PsiDirectoryNode" />
-              <item name="pic" type="462c0819:PsiDirectoryNode" />
+              <item name="DL" type="462c0819:PsiDirectoryNode" />
+              <item name="DETECTION" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clairvoyant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clairvoyant" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+              <item name="DL" type="462c0819:PsiDirectoryNode" />
+              <item name="DETECTION" type="462c0819:PsiDirectoryNode" />
+              <item name="SSD" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="clairvoyant" type="b2602c69:ProjectViewProjectNode" />
@@ -281,7 +299,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -392,7 +410,8 @@
       <workItem from="1551264668627" duration="921000" />
       <workItem from="1551315094046" duration="12720000" />
       <workItem from="1553586984026" duration="4676000" />
-      <workItem from="1553658993884" duration="1336000" />
+      <workItem from="1553658993884" duration="8049000" />
+      <workItem from="1553674740851" duration="15118000" />
     </task>
     <task id="LOCAL-00015" summary="android_FAQ">
       <created>1548227223222</created>
@@ -741,7 +760,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="271222000" />
+    <option name="totallyTimeSpent" value="293053000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -753,24 +772,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="2070" y="84" width="1561" height="994" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23187603" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18836749" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49970186" weight="0.32941177" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8539015" weight="0.24812031" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.827567" weight="0.2" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.59616655" visible="true" weight="0.19381689" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.82678473" weight="0.264232" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49848208" weight="0.3276492" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.6350941" weight="0.6321559" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2883232" side_tool="true" visible="true" weight="0.18689582" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.71167684" visible="true" weight="0.18689582" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.40383345" side_tool="true" visible="true" weight="0.19381689" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.71167684" weight="0.11278196" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4969563" weight="0.3265306" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -818,72 +837,15 @@
           <line>95</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/YOLO/yolo-FAQ.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
-            <caret line="8" column="19" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="70" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/YOLO/yolo-test.md" />
-    <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd_train.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="240">
-            <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd_user_dataset.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="150">
-            <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/object_detection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="133" column="3" selection-start-line="133" selection-start-column="3" selection-end-line="133" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/YOLO/YOLO-FAQ.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/FAQ/pip/error1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd_test.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="135">
-            <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../project/snpe-1.22.0.212/lib/python/converters/tensorflow/layers/concat.py" />
-    <entry file="file://$PROJECT_DIR$/../../project/snpe-1.22.0.212/lib/python/converters/tensorflow/converter.py" />
     <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/YOLO/yolov3_test.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -914,16 +876,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../project/models/research/object_detection.py" />
     <entry file="file://$PROJECT_DIR$/doc/Guide/file/cplus_plus_tutorial.html" />
-    <entry file="file://$PROJECT_DIR$/doc/Guide/snpe_install.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
-            <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/YOLO/yolov3_train.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -983,16 +935,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/transs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3570">
-          <caret line="244" column="14" selection-start-line="244" selection-start-column="14" selection-end-line="244" selection-end-column="14" />
-          <folding>
-            <element signature="e#155#164#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/348993582/__builtin__.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/numpy/core/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1002,24 +944,6 @@
       </provider>
     </entry>
     <entry file="file:///usr/lib/python2.7/dist-packages/PIL/Image.py" />
-    <entry file="file://$PROJECT_DIR$/doc/FAQ/snpe_FAQ.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="15">
-            <caret line="1" selection-start-line="1" selection-end-line="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/FAQ/tensorflow_FAQ.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/data/Makefile.arm-android-gcc4.9">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1028,16 +952,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/doc/tranditonal_image_process/file/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd_runtime.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="300">
-            <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/doc/Guide/snpe-cplusplus-transplant.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -1102,23 +1016,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/Guide/git.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="165">
-            <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/doc/Guide/jdk_android_install.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1155,13 +1052,171 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/FAQ/liunx_FAQ.md">
+    <entry file="file://$PROJECT_DIR$/doc/Guide/git.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="586">
+          <first_editor relative-caret-position="165">
+            <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/FAQ/snpe_FAQ.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="15">
+            <caret line="1" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../project/models-master/research/object_detection/legacy/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1145">
+          <caret line="103" column="69" lean-forward="true" selection-start-line="103" selection-start-column="69" selection-end-line="103" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/FAQ/tensorflow_FAQ.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/Guide/snpe_install.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/FAQ/python_FAQ.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1890">
             <caret line="126" column="37" selection-start-line="126" selection-start-column="37" selection-end-line="126" selection-end-column="37" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/data/pipeline.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd_runtime.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="240">
+            <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd_test.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3/dist-packages/PIL/Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="165" column="10" selection-start-line="165" selection-start-column="10" selection-end-line="165" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../project/snpe-1.24.0.256/models/inception_v3/scripts/create_inceptionv3_raws.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="36" />
+          <folding>
+            <element signature="e#147#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1247971764/cv2/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd_train.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="210">
+            <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="270" column="35" lean-forward="true" selection-start-line="270" selection-start-column="35" selection-end-line="270" selection-end-column="35" />
+          <folding>
+            <element signature="e#155#164#0" expanded="true" />
+            <element signature="e#383#813#0" />
+            <element signature="e#855#1068#0" />
+            <element signature="e#1171#3899#0" />
+            <element signature="e#3944#4143#0" />
+            <element signature="e#4528#5581#0" />
+            <element signature="e#4708#5581#0" />
+            <element signature="e#5628#5862#0" />
+            <element signature="e#5884#6023#0" />
+            <element signature="e#6058#7140#0" />
+            <element signature="e#7189#7433#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml_to_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="11" lean-forward="true" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+          <folding>
+            <element signature="e#161#170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd_user_dataset.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="15">
+            <caret line="1" column="27" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="55" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generate_tfrecord.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#445#454#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
