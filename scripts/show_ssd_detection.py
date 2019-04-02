@@ -79,9 +79,9 @@ def main():
                     box_float=[(boxes_array[4 * i + 1]*300), (boxes_array[4 * i]*300),(boxes_array[4 * i + 3]*300),(boxes_array[4 * i + 2]*300)]
                     print(box_float)
 
-                    box = [int(boxes_array[4 * i + 1] * 300.0-2), int(boxes_array[4 * i] * 300.0-2),
-                           math.ceil(boxes_array[4 * i + 3] * 300.0+4),
-                           math.ceil(boxes_array[4 * i + 2] * 300.0+2)]
+                    box = [int(boxes_array[4 * i + 1] *1280.0), int(boxes_array[4 * i] * 1280.0-128.0),
+                           math.ceil(boxes_array[4 * i + 3] * 1280.0),
+                           math.ceil(boxes_array[4 * i + 2] * 1280.0-128.0)]
                     # print(box)
                     boxs.append(box)
 
@@ -91,6 +91,7 @@ def main():
                         3] + '.jpg'
 
             # print(boxs.__len__())
+            print(path)
             image = cv2.imread(path)
             for i in range (boxs.__len__()):
                 cv2.rectangle(image, (boxs[i][0],boxs[i][1]),(boxs[i][2],boxs[i][3]), (0, 255, 0), 1)

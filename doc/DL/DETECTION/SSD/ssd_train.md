@@ -21,7 +21,16 @@
    
 # 旧版本指令：
 
+
+      tips：旧版本训练，需要用tensorflow-1.6之下的版本，否则在snpe转化的时候，转化不过去（我在这做过很多重复工作）
 `python legacy/train.py --logtostderr --train_dir=training/ --pipeline_config_path=/home/sy/data/work/StandardCVSXImages/ssd_mobilenet_v1_coco.config`
+
+
+# tensorbord 实时查看loss
+
+
+      tensorboard --logdir=taining
+
 
 ## 可能遇到问题：
 1. Memcpy failed
@@ -43,4 +52,7 @@ ans2:
 ##tensorboard show
 `tensorboard --logdir=training`
 ![tensorboard](pic/tensorboard.png)
+
+## 官网时间
+[link](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md)
     

@@ -69,7 +69,11 @@
     export LD_LIBRARY_PATH=/home/sy/code/project/snpe-1.22.0.212/lib/x86_64-linux-clang:$LD_LIBRARY_PATH 
  
 
-     
+ # test result
+   |project |  820 chip(ms)| pc(ms) |数量 |
+|:-----|:----|:-----|:-----|
+|cvs-opencv |150～200 | 20 | openmp 处理6张图片|
+|cvs-ssd | 450~500|550 | openmp 处理6张图片 |
 
 
 

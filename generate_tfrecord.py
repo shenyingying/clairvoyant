@@ -25,7 +25,7 @@ from PIL import Image
 from object_detection.utils import dataset_util
 from collections import namedtuple, OrderedDict
 
-os.chdir('/home/sy/code/project/models/research/object_detection/')
+os.chdir('/home/sy/code/project/models-master/research/object_detection/')
 
 flags = tf.app.flags
 flags.DEFINE_string('csv_input', '', 'Path to the CSV input')
@@ -93,7 +93,7 @@ def create_tf_example(group, path):
 def main(_):
     writer = tf.python_io.TFRecordWriter(FLAGS.output_path)
     # path = os.path.join(os.getcwd(), 'images')
-    path="/home/sy/data/work/StandardCVSXImages/image_jpg/"
+    path="/home/sy/data/cvs/ssd/train/"
     examples = pd.read_csv(FLAGS.csv_input)
     grouped = split(examples, 'filename')
     for group in grouped:
