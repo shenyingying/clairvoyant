@@ -1,4 +1,4 @@
-1. 根据官网指示来一遍[link](1.https://pjreddie.com/darknet/yolo/)
+1. 根据官网指示来一遍[link](https://pjreddie.com/darknet/yolo/)
 2. 用lableImg标注自己的数据，labelImg 的标注结果提供yolo(.txt)版本和voc(.xml)版本;
    .txt的标注结果如下[code(xml_txt)](../../../../transs.py)：
    
@@ -52,8 +52,10 @@
 9.常用指令参考：
 
        sudo ./darknet detect cfg/yolov3.cfg backup/yolov3.weights data/dog.jpg -thresh 0.00001
-       sudo ./darknet detector train cfg/optic.data cfg/optic.cfg
-       sudo ./darknet detector test cfg/optic.data cfg/optic.cfg backup/optic.weight data/im0001.jpg
+       sudo ./darknet detector train cfg/optic.data cfg/optic.cfg    # 训练图片
+       sudo ./darknet detector test cfg/optic.data cfg/optic.cfg backup/optic.weight data/im0001.jpg   #测试图片
+       sudo ./darknet detector map cfg/vi.data cfg/vi.cfg backup/vi_last.weights      #测试准确率和召回率
+       sudo ./darknet detector demo cfg/vi.data cfg/vi.cfg backup/vi_last.weights /home/sy/data/vison/c.mp4 -out_filename /home/sy/data/vison/result_c.mp4  #测试视频并保存
        
 10.测试结果 yolov3在检测方面比ssd效果要好的多，即使是yolov3-tiny
 

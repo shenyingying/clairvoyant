@@ -2,17 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cbfdce9-b4e0-47bf-aeb8-21a9d6d65489" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/denoise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/DL/denoise/CBDnet.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/DL/denoise/pic/FFDnetTime.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/DL/denoise/pic/JPEG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/DL/denoise/pic/loss.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/tranditonal_image_process/zlib png fftw Ubuntu16.04 install.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/clairvoyant.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/clairvoyant.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/DL/DETECTION/SSD/SNPE-CXX-transplant.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/DL/DETECTION/SSD/SNPE-CXX-transplant.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd_train.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd_train.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generate_tfrecord.py" beforeDir="false" afterPath="$PROJECT_DIR$/generate_tfrecord.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/show_ssd_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/show_ssd_detection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd_transplant.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd_transplant.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/DL/DETECTION/YOLO/yolov3_train.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/DL/DETECTION/YOLO/yolov3_train.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/DL/denoise/CBDnet.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/DL/denoise/CBDnet.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/DL/denoise/cdncnn.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/DL/denoise/cdncnn.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/FAQ/python_FAQ.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/FAQ/python_FAQ.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/Guide/snpe_install.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/Guide/snpe_install.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensor.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transs.py" beforeDir="false" afterPath="$PROJECT_DIR$/transs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vision.py" beforeDir="false" afterPath="$PROJECT_DIR$/vision.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +23,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/clairvoyant$test.coverage" NAME="test Coverage Results" MODIFIED="1553754749904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/clairvoyant$test.coverage" NAME="test Coverage Results" MODIFIED="1560840246828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../project/snpe-1.25.1.310/models/inception_v3/scripts" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -38,122 +40,117 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/SNPE-CXX-transplant.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1140">
-                <caret line="76" selection-start-line="76" selection-end-line="76" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/detection in deeplearning.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/DL/image_process in deeplearning.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="510">
-                <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/DL/basic-knowledge.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="2565">
-                <caret line="171" column="5" selection-start-line="171" selection-end-line="173" selection-end-column="19" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/FAQ/snpe_FAQ.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="15">
-                <caret line="1" selection-start-line="1" selection-end-line="1" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../project/snpe-1.24.0.256/models/ssd/show_ssd_detection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1305">
-              <caret line="94" column="36" selection-start-line="94" selection-start-column="36" selection-end-line="94" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/tranditonal_image_process/zlib png fftw Ubuntu16.04 install.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="150">
-                <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/doc/DL/denoise/CBDnet.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="61">
-                <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/create_file_list.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#138#153#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/create_ssd_raws.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1305">
-              <caret line="91" column="38" selection-start-line="91" selection-start-column="35" selection-end-line="91" selection-end-column="38" />
-              <folding>
-                <element signature="e#142#157#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.8582296">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd_transplant.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="930">
+                    <caret line="62" column="3" selection-start-line="62" selection-start-column="3" selection-end-line="62" selection-end-column="3" />
+                  </first_editor>
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../../project/snpe-1.25.1.310/models/inception_v3/scripts/show_yolo_objection.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1365">
+                  <caret line="95" column="71" selection-start-line="95" selection-start-column="71" selection-end-line="95" selection-end-column="71" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../../project/snpe-1.25.1.310/models/inception_v3/scripts/create_yolo_raws.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="915">
+                  <caret line="66" column="48" selection-start-line="66" selection-start-column="48" selection-end-line="66" selection-end-column="48" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/doc/Guide/git.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="165">
+                    <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+                  </first_editor>
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/transs.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1491">
+                  <caret line="307" column="27" lean-forward="true" selection-start-line="307" selection-start-column="27" selection-end-line="307" selection-end-column="27" />
+                  <folding>
+                    <element signature="e#155#164#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/SNPE-CXX-transplant.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor />
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scripts/create_file_list.py">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scripts/create_ssd_raws.py">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/pic/raw_list.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="6" selection-start-line="6" selection-end-line="6" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/PIL/Image.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2805">
+                  <caret line="192" selection-start-line="192" selection-end-line="192" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/scripts/show_ssd_detection.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="241">
+                  <caret line="72" column="19" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -183,17 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/record/train_question.md" />
-        <option value="$PROJECT_DIR$/doc/Guide/snpe_install.md" />
-        <option value="$PROJECT_DIR$/doc/Guide/java_android_install.md" />
-        <option value="$PROJECT_DIR$/doc/Guide/jdk_android_install.md" />
-        <option value="$PROJECT_DIR$/doc/FAQ/snpe_FAQ.md" />
-        <option value="$PROJECT_DIR$/../../project/snpe-1.22.0.212/models/ssd/scripts/create_inceptionv3_raws.py" />
-        <option value="$PROJECT_DIR$/../../project/snpe-1.22.0.212/models/ssd/scripts/show_inceptionv3_classifications.py" />
-        <option value="$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd_test.md" />
-        <option value="$PROJECT_DIR$/doc/Guide/cuda_cudnn_tensorflow_install.md" />
-        <option value="$PROJECT_DIR$/doc/FAQ/android_FAQ.md" />
-        <option value="$PROJECT_DIR$/tensorflow_log" />
         <option value="$PROJECT_DIR$/doc/DL/DETECTION/YOLO/data/config.txt" />
         <option value="$PROJECT_DIR$/doc/DL/DETECTION/YOLO/YOLO-FAQ.md" />
         <option value="$PROJECT_DIR$/doc/DL/DETECTION/YOLO/yolo-FAQ.md" />
@@ -203,23 +189,18 @@
         <option value="$PROJECT_DIR$/../../project/models/research/generate_tfrecord.py" />
         <option value="$PROJECT_DIR$/doc/DL/DETECTION/YOLO/yolov3_test.md" />
         <option value="$PROJECT_DIR$/doc/DL/image_process in deeplearning.md" />
-        <option value="$PROJECT_DIR$/doc/DL/DETECTION/YOLO/yolov3_train.md" />
         <option value="$PROJECT_DIR$/../../project/snpe-1.22.0.212/lib/python/converters/tensorflow/layers/concat.py" />
-        <option value="$PROJECT_DIR$/tensor.py" />
         <option value="$PROJECT_DIR$/../../project/models/research/object_detection.py" />
         <option value="$PROJECT_DIR$/doc/Guide/snpe-cplusplus-transplant.md" />
         <option value="$PROJECT_DIR$/doc/Guide/git.md" />
         <option value="$PROJECT_DIR$/doc/work.md" />
         <option value="$PROJECT_DIR$/../../project/snpe-1.22.0.212/models/inception_v3/scripts/show_inceptionv3_classifications.py" />
-        <option value="$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd_transplant.md" />
         <option value="$PROJECT_DIR$/../../project/snpe-1.22.0.212/models/ssd/scripts/show_ssd_detection.py" />
         <option value="$PROJECT_DIR$/doc/Guide/install-opencv-liunx.md" />
         <option value="$PROJECT_DIR$/doc/Guide/opencv-liunx.md" />
         <option value="$PROJECT_DIR$/doc/DL/basic-knowledge.md" />
         <option value="$PROJECT_DIR$/doc/tranditonal_image_process/opencv-liunx.md" />
         <option value="$PROJECT_DIR$/doc/FAQ/liunx_FAQ.md" />
-        <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/transs.py" />
         <option value="$PROJECT_DIR$/xml_to_csv.py" />
         <option value="$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd_runtime.md" />
         <option value="$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd-logic-flow.md" />
@@ -233,15 +214,31 @@
         <option value="$PROJECT_DIR$/../../project/snpe-1.24.0.256/models/ssd/show_ssd_detection.py" />
         <option value="$PROJECT_DIR$/doc/DL/DETECTION/SSD/SNPE-CXX-transplant.md" />
         <option value="$PROJECT_DIR$/doc/tranditonal_image_process/zlib png fftw Ubuntu16.04 install.md" />
+        <option value="$PROJECT_DIR$/doc/Guide/snpe_install.md" />
+        <option value="$PROJECT_DIR$/tensor.py" />
         <option value="$PROJECT_DIR$/doc/DL/denoise/CBDnet.md" />
+        <option value="$PROJECT_DIR$/doc/FAQ/python_FAQ.md" />
+        <option value="$PROJECT_DIR$/doc/DL/denoise/cdncnn.txt" />
+        <option value="$PROJECT_DIR$/doc/DL/denoise/cdncnn.md" />
+        <option value="$PROJECT_DIR$/doc/DL/DETECTION/YOLO/yolov3_train.md" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/../../project/keras-yolo3/train.py" />
+        <option value="$PROJECT_DIR$/../../project/keras-yolo3/yolo3/model.py" />
+        <option value="$PROJECT_DIR$/vision.py" />
+        <option value="$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd_transplant.md" />
+        <option value="$PROJECT_DIR$/../../project/snpe-1.25.1.310/models/inception_v3/scripts/show_inceptionv3_classifications.py" />
+        <option value="$PROJECT_DIR$/../../project/snpe-1.25.1.310/models/inception_v3/scripts/create_inceptionv3_raws.py" />
+        <option value="$PROJECT_DIR$/../../project/snpe-1.25.1.310/models/inception_v3/scripts/show_yolo_objection.py" />
+        <option value="$PROJECT_DIR$/../../project/snpe-1.25.1.310/models/inception_v3/scripts/create_yolo_raws.py" />
+        <option value="$PROJECT_DIR$/transs.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="2028" />
-    <option name="y" value="114" />
-    <option name="width" value="1734" />
-    <option name="height" value="966" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1985" />
+    <option name="y" value="-4" />
+    <option name="width" value="1855" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -282,8 +279,32 @@
               <item name="clairvoyant" type="462c0819:PsiDirectoryNode" />
               <item name="doc" type="462c0819:PsiDirectoryNode" />
               <item name="DL" type="462c0819:PsiDirectoryNode" />
-              <item name="denoise" type="462c0819:PsiDirectoryNode" />
-              <item name="pic" type="462c0819:PsiDirectoryNode" />
+              <item name="DETECTION" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clairvoyant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clairvoyant" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+              <item name="DL" type="462c0819:PsiDirectoryNode" />
+              <item name="DETECTION" type="462c0819:PsiDirectoryNode" />
+              <item name="SSD" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clairvoyant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clairvoyant" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+              <item name="DL" type="462c0819:PsiDirectoryNode" />
+              <item name="DETECTION" type="462c0819:PsiDirectoryNode" />
+              <item name="SSD" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clairvoyant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clairvoyant" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+              <item name="DL" type="462c0819:PsiDirectoryNode" />
+              <item name="DETECTION" type="462c0819:PsiDirectoryNode" />
+              <item name="YOLO" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="clairvoyant" type="b2602c69:ProjectViewProjectNode" />
@@ -303,13 +324,6 @@
               <item name="doc" type="462c0819:PsiDirectoryNode" />
               <item name="tranditonal_image_process" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="clairvoyant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clairvoyant" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
-              <item name="tranditonal_image_process" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -318,7 +332,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../project/snpe-1.24.0.256/models/ssd/show_ssd_detection.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../project/mAP" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -326,9 +340,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/doc/DL/denoise/pic" />
+      <recent name="$PROJECT_DIR$/doc/FAQ/pic" />
+      <recent name="$PROJECT_DIR$/doc/Guide/pic" />
       <recent name="$PROJECT_DIR$/doc/tranditonal_image_process/file" />
       <recent name="$PROJECT_DIR$/doc/file" />
-      <recent name="$PROJECT_DIR$/doc/Guide/file" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/doc/tranditonal_image_process" />
@@ -381,14 +396,14 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="LD_LIBRARY_PATH" value="/usr/local/cuda-9.0/lib64" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="/usr/local/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../project/snpe-1.25.1.310/models/inception_v3/scripts" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/transs.py" />
+      <option name="PARAMETERS" value="-d $PROJECT_DIR$/../../project/snpe-1.25.1.310/models/inception_v3/scripts/output -i $PROJECT_DIR$/../../project/snpe-1.25.1.310/models/inception_v3/scripts/input" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -433,7 +448,51 @@
       <workItem from="1553658993884" duration="8049000" />
       <workItem from="1553674740851" duration="32536000" />
       <workItem from="1554101830361" duration="4306000" />
-      <workItem from="1554170252792" duration="7447000" />
+      <workItem from="1554170252792" duration="9192000" />
+      <workItem from="1554254331439" duration="8000" />
+      <workItem from="1554262968174" duration="768000" />
+      <workItem from="1554282973332" duration="944000" />
+      <workItem from="1554340264609" duration="1837000" />
+      <workItem from="1554684839287" duration="603000" />
+      <workItem from="1554706598633" duration="14445000" />
+      <workItem from="1554800160775" duration="7409000" />
+      <workItem from="1555034454009" duration="3909000" />
+      <workItem from="1555326753696" duration="2000" />
+      <workItem from="1555403483205" duration="1338000" />
+      <workItem from="1555413195977" duration="3027000" />
+      <workItem from="1555577606923" duration="3389000" />
+      <workItem from="1555657134734" duration="2208000" />
+      <workItem from="1555659884581" duration="2105000" />
+      <workItem from="1556009621802" duration="3617000" />
+      <workItem from="1556067054830" duration="3200000" />
+      <workItem from="1556084303901" duration="2781000" />
+      <workItem from="1556247773939" duration="22000" />
+      <workItem from="1556249003750" duration="939000" />
+      <workItem from="1556255664593" duration="916000" />
+      <workItem from="1556261727905" duration="2681000" />
+      <workItem from="1556417805021" duration="68000" />
+      <workItem from="1556420423644" duration="19107000" />
+      <workItem from="1556705518867" duration="2901000" />
+      <workItem from="1557028339307" duration="599000" />
+      <workItem from="1557040054273" duration="1799000" />
+      <workItem from="1557284825508" duration="1210000" />
+      <workItem from="1557303554802" duration="1203000" />
+      <workItem from="1557400137105" duration="2714000" />
+      <workItem from="1557465666452" duration="17000" />
+      <workItem from="1557709712318" duration="2272000" />
+      <workItem from="1557804146394" duration="6367000" />
+      <workItem from="1557817911280" duration="3369000" />
+      <workItem from="1557881837107" duration="2590000" />
+      <workItem from="1559034674287" duration="6279000" />
+      <workItem from="1559091616998" duration="325000" />
+      <workItem from="1559091953867" duration="66000" />
+      <workItem from="1559092150450" duration="116000" />
+      <workItem from="1559099746572" duration="8671000" />
+      <workItem from="1559531397470" duration="40570000" />
+      <workItem from="1559970682335" duration="30000" />
+      <workItem from="1560301402799" duration="11342000" />
+      <workItem from="1560579111862" duration="599000" />
+      <workItem from="1560735344034" duration="4696000" />
     </task>
     <task id="LOCAL-00015" summary="android_FAQ">
       <created>1548227223222</created>
@@ -782,7 +841,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="322224000" />
+    <option name="totallyTimeSpent" value="497027000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -794,25 +853,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2028" y="114" width="1734" height="966" extended-state="1" />
-    <editor active="true" />
+    <frame x="2105" y="73" width="1853" height="1048" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20699881" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18504155" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49970186" weight="0.32941177" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.59616655" weight="0.19381689" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.82678473" weight="0.264232" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4991699" weight="0.21267454" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.73573405" weight="0.08156425" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8251245" weight="0.43179378" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49848208" weight="0.3276492" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.6350941" weight="0.6321559" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.29003558" side_tool="true" visible="true" weight="0.12423124" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.7099644" visible="true" weight="0.12423124" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4969563" weight="0.3265306" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.26397344" side_tool="true" visible="true" weight="0.28156424" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.63309354" weight="0.6315789" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.7028224" weight="0.18826135" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49308246" weight="0.25241676" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -861,162 +919,40 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/test.py</url>
-          <line>7</line>
+          <line>53</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/transs.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../../project/snpe-1.25.1.310/models/inception_v3/scripts/show_inceptionv3_classifications.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../../project/snpe-1.25.1.310/models/inception_v3/scripts/show_inceptionv3_classifications.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/cv2/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/../../project/snpe-1.22.0.212/models/ssd/scripts/show_ssd_detection.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/348993582/__builtin__.py" />
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/numpy/core/__init__.py">
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/tensorflow/python/training/saver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37020">
-          <caret line="2468" selection-start-line="2468" selection-end-line="2468" />
+        <state relative-caret-position="26745">
+          <caret line="1821" column="4" selection-start-line="1821" selection-start-column="4" selection-end-line="1821" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/lib/python2.7/dist-packages/PIL/Image.py" />
-    <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/data/Makefile.arm-android-gcc4.9">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/tranditonal_image_process/file/main.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/tranditonal_image_process/file/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/Guide/snpe-cplusplus-transplant.md">
+    <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd_runtime.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="135">
-            <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/DL/objectFunc/l1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/tranditonal_image_process/opencv-liunx.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="465">
-            <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" selection-start-line="2" selection-end-line="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/Guide/jdk_android_install.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/Guide/cuda_cudnn_tensorflow_install.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/FAQ/android_FAQ.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="255">
-            <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/Guide/git.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="165">
-            <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/FAQ/tensorflow_FAQ.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3/dist-packages/PIL/Image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="165" column="10" selection-start-line="165" selection-start-column="10" selection-end-line="165" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../project/snpe-1.24.0.256/models/inception_v3/scripts/create_inceptionv3_raws.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="36" />
-          <folding>
-            <element signature="e#147#162#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/transs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="270" column="35" selection-start-line="270" selection-start-column="35" selection-end-line="270" selection-end-column="35" />
-          <folding>
-            <element signature="e#155#164#0" expanded="true" />
-            <element signature="e#383#813#0" />
-            <element signature="e#855#1068#0" />
-            <element signature="e#1171#3899#0" />
-            <element signature="e#3944#4143#0" />
-            <element signature="e#4528#5581#0" />
-            <element signature="e#4708#5581#0" />
-            <element signature="e#5628#5862#0" />
-            <element signature="e#5884#6023#0" />
-            <element signature="e#6058#7140#0" />
-            <element signature="e#7189#7433#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml_to_csv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
-          <folding>
-            <element signature="e#161#170#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd-logic-flow.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="15">
-            <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+          <first_editor relative-caret-position="630">
+            <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
           </first_editor>
           <second_editor />
         </state>
@@ -1025,16 +961,117 @@
     <entry file="file://$PROJECT_DIR$/doc/FAQ/python_FAQ.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1021">
-            <caret line="126" column="37" selection-start-line="126" selection-start-column="37" selection-end-line="126" selection-end-column="37" />
+          <first_editor relative-caret-position="372">
+            <caret line="120" column="15" selection-start-line="120" selection-start-column="15" selection-end-line="120" selection-end-column="15" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/PIL/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/tranditonal_image_process/opencv-liunx.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="420">
+            <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1199943127/cv2/cv2/CascadeClassifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+          <folding>
+            <element signature="e#193#297#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1199943127/cv2/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129930">
+          <caret line="8677" column="4" selection-start-line="8677" selection-start-column="4" selection-end-line="8677" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/tensorflow/contrib/framework/python/ops/variables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="724">
+          <caret line="671" selection-start-line="671" selection-end-line="671" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/348993582/cv2/cv2/VideoCapture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="121" column="11" selection-start-line="121" selection-start-column="11" selection-end-line="121" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3931.jpg" />
+    <entry file="file://$PROJECT_DIR$/3930.jpg" />
+    <entry file="file://$PROJECT_DIR$/3929.jpg" />
+    <entry file="file://$PROJECT_DIR$/3359.jpg" />
+    <entry file="file://$PROJECT_DIR$/3361.jpg" />
+    <entry file="file://$PROJECT_DIR$/3431.jpg" />
+    <entry file="file://$PROJECT_DIR$/3531.jpg" />
+    <entry file="file://$PROJECT_DIR$/3675.jpg" />
+    <entry file="file://$PROJECT_DIR$/3759.jpg" />
+    <entry file="file://$PROJECT_DIR$/3846.jpg" />
+    <entry file="file://$PROJECT_DIR$/3926.jpg" />
+    <entry file="file://$PROJECT_DIR$/3927.jpg" />
+    <entry file="file://$PROJECT_DIR$/3928.jpg" />
+    <entry file="file://$PROJECT_DIR$/../../project/keras-yolo3/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="119" column="21" selection-start-line="119" selection-start-column="21" selection-end-line="119" selection-end-column="21" />
+          <folding>
+            <element signature="e#54#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../project/keras-yolo3/yolo3/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vision.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+          <folding>
+            <element signature="e#156#179#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/generate_tfrecord.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="300">
           <caret line="27" column="15" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="72" />
           <folding>
             <element signature="e#445#454#0" expanded="true" />
@@ -1042,147 +1079,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../project/models-master/research/object_detection/generate_tfrecord.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="98" column="25" selection-start-line="98" selection-start-column="25" selection-end-line="98" selection-end-column="25" />
-          <folding>
-            <element signature="e#445#454#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd_user_dataset.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="15">
-            <caret line="1" column="27" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="55" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/data/pipeline.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2325">
-          <caret line="155" column="1" selection-start-line="155" selection-start-column="1" selection-end-line="155" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd_runtime.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="599">
-            <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/doc/Guide/snpe_install.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
-            <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../project/models-master/research/object_detection/legacy/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/denoise.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd_train.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="254">
-            <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <first_editor relative-caret-position="330">
+            <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/object_detection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-842" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../project/models-master/research/object_detection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1247971764/cv2/cv2/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54450">
-          <caret line="3645" column="4" selection-start-line="3645" selection-start-column="4" selection-end-line="3645" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd_transplant.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="390">
-            <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/show_ssd_detection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="81" column="53" selection-start-line="81" selection-start-column="53" selection-end-line="81" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/pic/raw_list.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../project/snpe-1.24.0.256/models/ssd/create_ssd_raws.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd_test.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="135">
-            <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/../../project/snpe-1.25.1.310/models/inception_v3/scripts/create_file_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="21" column="52" lean-forward="true" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+          <folding>
+            <element signature="e#138#153#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/SNPE-CXX-transplant.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1140">
-            <caret line="76" selection-start-line="76" selection-end-line="76" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/../../project/snpe-1.24.0.256/models/inception_v3/scripts/show_inceptionv3_classifications.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405">
+          <folding>
+            <element signature="e#143#158#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/detection in deeplearning.md">
+    <entry file="file://$PROJECT_DIR$/../../project/models-master/research/object_detection/inputs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="e#156#165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/YOLO/data/optic.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-158">
+          <caret line="721" lean-forward="true" selection-start-line="721" selection-end-line="721" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/YOLO/yolov3_transplant.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -1190,79 +1143,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/DL/image_process in deeplearning.md">
+    <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/YOLO/yolov3_train.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="510">
-            <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <first_editor relative-caret-position="807">
+            <caret line="75" column="4" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/DL/basic-knowledge.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2565">
-            <caret line="171" column="5" selection-start-line="171" selection-end-line="173" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/FAQ/snpe_FAQ.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="15">
-            <caret line="1" selection-start-line="1" selection-end-line="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../project/snpe-1.24.0.256/models/ssd/show_ssd_detection.py">
+    <entry file="file://$PROJECT_DIR$/../../project/snpe-1.25.1.310/models/inception_v3/scripts/show_inceptionv3_classifications.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
-          <caret line="94" column="36" selection-start-line="94" selection-start-column="36" selection-end-line="94" selection-end-column="36" />
+        <state relative-caret-position="915">
+          <caret line="67" column="26" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
+          <folding>
+            <element signature="e#143#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/numpy/core/fromnumeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../project/snpe-1.25.1.310/models/inception_v3/scripts/create_inceptionv3_raws.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+          <folding>
+            <element signature="e#147#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/ssd_transplant.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="930">
+            <caret line="62" column="3" selection-start-line="62" selection-start-column="3" selection-end-line="62" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../project/snpe-1.25.1.310/models/inception_v3/scripts/show_yolo_objection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="95" column="71" selection-start-line="95" selection-start-column="71" selection-end-line="95" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../project/snpe-1.25.1.310/models/inception_v3/scripts/create_yolo_raws.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="66" column="48" selection-start-line="66" selection-start-column="48" selection-end-line="66" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/SNPE-CXX-transplant.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/create_file_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#138#153#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/create_ssd_raws.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/DL/DETECTION/SSD/pic/raw_list.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
-          <caret line="91" column="38" selection-start-line="91" selection-start-column="35" selection-end-line="91" selection-end-column="38" />
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/PIL/Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2805">
+          <caret line="192" selection-start-line="192" selection-end-line="192" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/show_ssd_detection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="72" column="19" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/Guide/git.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="165">
+            <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1491">
+          <caret line="307" column="27" lean-forward="true" selection-start-line="307" selection-start-column="27" selection-end-line="307" selection-end-column="27" />
           <folding>
-            <element signature="e#142#157#0" expanded="true" />
+            <element signature="e#155#164#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/tranditonal_image_process/zlib png fftw Ubuntu16.04 install.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="150">
-            <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/DL/denoise/CBDnet.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="61">
-            <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>

@@ -17,6 +17,13 @@
      cd ~/snpe-sdk/
      source ./bin/envsetup.sh -t  /home/sy/.local/lib/python2.7/site-packages/tensorflow
      
+   这一步骤荣誉出现错误![](pic/error.png)
+   
+     
+      直接把之前的libgnustl_shared.so copy 进去
+
+     
+     
    if you didn't know the path of tensorflow, you can run the commond
    
      python2

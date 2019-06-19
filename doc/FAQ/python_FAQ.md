@@ -51,7 +51,11 @@
     cd /var/lib/dpkg
     sudo mv info info.bak
     sudo mkdir info
-        
+  e:python: error while loading shared libraries: libpython3.4m.so.1.0: cannot open shared object file: No such file or directory
+     
+     sudo cp libpython3.4m.so.1.0  /usr/local/lib
+     sudo cp libpython3.4m.so.1.0  /usr/lib/
+ 
 3.安装与python对应的pip：
 
    由于项目需要，必须用python3.4,这时候需要修改与之对应的pip版本，不过按着 1 安装，一直提示找不到制定版本。索性重新安装下与python对应的pip：
@@ -85,7 +89,7 @@ c:测试 一般容易出现`ImportError: cannot import name 'HTTPSHandler'
  error2：Ubuntu 内核与yum冲突
  
      sudo apt-get install openssl
-     sudo apt-get install openssl-dev
+     sudo apt-get install openssl-dev // 经常会出现无法定位 openssl-dev ，这时请安装：(sudo apt-get install libssl-dev)
      重新编译python
       
  4.error while loading shared libraries: xxx.so.x" 错误的原因和解决办法 [link](https://www.cnblogs.com/Anker/p/3209876.html)  
@@ -125,4 +129,15 @@ c:测试 一般容易出现`ImportError: cannot import name 'HTTPSHandler'
  
      
      pip install --upgrade distribute
+     
+7.pycharm 中用GPU 经常出现错误 
+![](pic/pycharm_gpu.png)
+
+
+    在环境变量中加入 LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64;usr/local/lib
+8.一般在用tensorflow 训练数据 出现GPU 问题的时候：
+ 
+     a：设置内存占用率
+     b：制定GPU型号 os.environ['CUDA_VISIBLE_DEVICES'] = '1'
+    
  

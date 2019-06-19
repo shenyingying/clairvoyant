@@ -13,6 +13,15 @@ import numpy as np
 import shutil
 
 
+# move one format file to another file
+def move_file(src, dst, format):
+    files = os.listdir(src)
+    for file in files:
+        src_name = src + '/' + file
+        dst_name = dst + '/' + file
+        file = file.split('.')
+        if file[-1] == format:
+            shutil.move(src_name, dst_name)
 
 
 # convert pic with src_format to dst_format
@@ -172,29 +181,30 @@ def test(pic):
     cv2.imshow(" ", out1)
     cv2.waitKey()
 
+
 import cv2
+
+
 def raw_pic(pic):
-    img=np.ones((2,4),dtype=np.uint8)
-    img[0,0]=100
-    img[0,1]=150
-    img[0,2]=255
-    cv2.imshow("img",img)
+    img = np.ones((2, 4), dtype=np.uint8)
+    img[0, 0] = 100
+    img[0, 1] = 150
+    img[0, 2] = 255
+    cv2.imshow("img", img)
     cv2.waitKey()
-    brg_img=cv2.cvtColor(img,cv2.COLOR_GRAY2BGR)
-    cv2.imshow("brg_img",brg_img)
+    brg_img = cv2.cvtColor(img, cv2.COLOR_GRAY2BGR)
+    cv2.imshow("brg_img", brg_img)
     cv2.waitKey()
 
     print (img)
     print ("brg_hwc:")
     print (brg_img)
-    print (brg_img.shape[0],brg_img.shape[1],brg_img.shape[2])
+    print (brg_img.shape[0], brg_img.shape[1], brg_img.shape[2])
 
     print ("brg_img_chw:")
-    brg_img_chw=np.transpose(brg_img,(2,0,1))
+    brg_img_chw = np.transpose(brg_img, (2, 0, 1))
     print (brg_img_chw)
-    print (brg_img_chw.shape[0],brg_img_chw.shape[1],brg_img_chw.shape[2])
-
-
+    print (brg_img_chw.shape[0], brg_img_chw.shape[1], brg_img_chw.shape[2])
 
     mat_pic_dim = (3, 2, 2)
     mat_dim = (2, 2)
@@ -247,28 +257,63 @@ def np_file():
     np.float32
 
 
+def generate_empty_lable(src):
+    files = os.listdir(src)
+    for file in files:
+        file = file.split('.')
+        txt_file_path = src + file[0] + '.txt'
+        txt_file = open(txt_file_path, 'w')
+        txt_file.write(' ')
+
+
+def video_pic(path):
+    cap = cv2.VideoCapture(path)
+    sucess = cap.isOpened()
+    frame_count = 0
+    i = 0
+    while sucess:
+        frame_count += 1
+        sucess, frame = cap.read()
+        if (frame_count % 10 == 0):
+            i += 1
+            cv2.imwrite('/home/sy/s/d%d.jpg' % i, frame)
+    cap.release()
+
+
+def convert_tif_to_png(src):
+    files = os.listdir(src)
+    for file in files:
+        src_pic = src + file
+        img = cv2.imread(src_pic)
+        name = file.split('.')
+        name = src + name[0] + '.png'
+        cv2.imwrite(name, img)
+        cv2.waitKey(1)
+
+
+def convert_gif_to_png(src):
+    files = os.listdir(src)
+    for file in files:
+        src_pic = src + file
+        gif = cv2.VideoCapture(src_pic)
+        ret, img = gif.read()
+        name = file.split('.')
+        name = src + name[0] + '.png'
+        cv2.imwrite(name, img)
+        cv2.waitKey(1)
+
+
+# rename file
+def change_file_name(dir):
+    files = os.listdir(dir)
+    for file in files:
+        # print (file[9:])
+        if (file[0] == 'l'):
+            src_name = dir + file
+            dst_name = dir + file[9:]
+            os.rename(src_name, dst_name)
+
+
 if __name__ == '__main__':
-
-    # img_dir="/home/sy/data/work/eye/image_jpg/"
-    # label_txt_dir="/home/sy/data/work/eye/label_txt/test/"
-    # name_dir="/home/sy/data/work/eye/ssd-train/classes.txt"
-    # label_xml_dir="/home/sy/data/work/eye/label_xml/test/"
-    # txt_xml(img_dir,label_txt_dir,name_dir,label_xml_dir)
-    # move_format_file(img_dir,dst,"jpg")
-    # np_file()
-
-
-    # pic = "/home/sy/data/work/eye/ssd_result/pics/im0133.jpg"
-    # raw_pic(pic)
-
-    # raw_pic(pic)
-    # src_dir="/home/sy/data/cvs/padding/15_padding/"
-    # dst_dir="/home/sy/data/cvs/label"
-    # bmp_jpg(src_dir,dst_dir,'bmp','jpg')
-
-    src = "/home/sy/data/cvs/padding/15_padding/"
-    dst = "/home/sy/data/cvs/label/"
-    move_format_file(src,dst,'xml')
-
-    # xml_txt(src, dst)
-    # generate_train(src,dst)
+    src = "/home/sy/data/work/StandardCVSXImages/label_txt_kuo/"
+    change_file_name(src)
