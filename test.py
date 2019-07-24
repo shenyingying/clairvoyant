@@ -2,14 +2,12 @@ import cv2
 import os
 import numpy as np
 
-
 RESIZE_METHOD_BILINEAR = "bilinear"
 RESIZE_METHOD_ANTIALIAS = "antialias"
 
+
 def get_tuned_variables():
     pass
-
-
 
 
 def filter():
@@ -66,8 +64,30 @@ def convert1024to300(file_dir, dst_dir):
         cv2.imwrite(dst, padding)
 
 
+def make_divisible(v, divisior, min_value=None):
+    if min_value is None:
+        min_value = divisior
+    new_v = max(min_value, int(v + divisior / 2) // divisior * divisior)
+
+
 if __name__ == '__main__':
-    filter()
+    # filter()
     # src=cv2.imread("/home/sy/data/work/snapdragon/1.jpg")
     # dst=cv2.resize(src,(1000,1000))
     # cv2.imwrite('/home/sy/data/work/snapdragon/1_1000_1000.jpg',dst)
+
+    # img = cv2.imread("/home/sy/data/work/StandardCVSXImages/image_jpg/image_6_exposurePic.jpg")
+    # cv2.circle(img, (255, 601), 36, (255, 0, 0), 1)
+    # cv2.imshow("img", img)
+    # cv2.waitKey()
+
+    lines = "/home/sy/data/work/StandardCVSXImages/image_jpg/image_10_4.jpg 232,339,309,410,0 829,454,903,518,0"
+    line = lines.split()
+    box = np.array([np.array(list(map(int, box.split(',')))) for box in line[1:]])
+    for i in range(len(box)):
+        print(box[i])
+    # print(box[0])
+    print(line[0])
+
+    box_data = np.zeros((5, 5))
+    print(box_data)

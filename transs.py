@@ -196,15 +196,15 @@ def raw_pic(pic):
     cv2.imshow("brg_img", brg_img)
     cv2.waitKey()
 
-    print (img)
-    print ("brg_hwc:")
-    print (brg_img)
-    print (brg_img.shape[0], brg_img.shape[1], brg_img.shape[2])
+    print(img)
+    print("brg_hwc:")
+    print(brg_img)
+    print(brg_img.shape[0], brg_img.shape[1], brg_img.shape[2])
 
-    print ("brg_img_chw:")
+    print("brg_img_chw:")
     brg_img_chw = np.transpose(brg_img, (2, 0, 1))
-    print (brg_img_chw)
-    print (brg_img_chw.shape[0], brg_img_chw.shape[1], brg_img_chw.shape[2])
+    print(brg_img_chw)
+    print(brg_img_chw.shape[0], brg_img_chw.shape[1], brg_img_chw.shape[2])
 
     mat_pic_dim = (3, 2, 2)
     mat_dim = (2, 2)
@@ -221,10 +221,10 @@ def raw_pic(pic):
     mat[0] = mat_r
     mat[1] = mat_g
     mat[2] = mat_b
-    print (mat)
+    print(mat)
 
     mat = np.transpose(mat, (1, 2, 0))
-    print (mat)
+    print(mat)
 
     # print mat_b
     # print mat_g
@@ -232,7 +232,7 @@ def raw_pic(pic):
     # mat={1,2,3,4,5,6,7,8,9,10,11,12}
     #
     mat = cv2.imread(pic)
-    print (mat.shape[0], mat.shape[1], mat.shape[2])
+    print(mat.shape[0], mat.shape[1], mat.shape[2])
     # print (mat)
 
 
@@ -242,16 +242,16 @@ import os
 
 def np_file():
     a = np.arange(0, 12)
-    print (a)
+    print(a)
     a.reshape(3, 4)
-    print ("a:")
-    print (a)
+    print("a:")
+    print(a)
     a.tofile("a.raw")
     b = np.fromfile("a.raw", dtype=np.int)
-    print ("b:")
-    print (b)
+    print("b:")
+    print(b)
     b.reshape(3, 4)
-    print (b)
+    print(b)
 
     np.float
     np.float32
@@ -314,6 +314,40 @@ def change_file_name(dir):
             os.rename(src_name, dst_name)
 
 
+def read(src_txt):
+    f = open(src_txt, 'r')
+    try:
+        for line in f:
+            print(line)
+    finally:
+        f.close()
+
+
+
+def mouse_event(event, x, y, flags, param):
+    global start, drawing
+    if event == cv2.EVENT_LBUTTONDOWN:
+        print(x, y)
+
+
+def draw_circle_lable():
+    img = cv2.imread("/home/sy/data/work/StandardCVSXImages/image_jpg/image_1_12.jpg")
+    cv2.namedWindow('image')
+    cv2.setMouseCallback('image', mouse_event)
+    while True:
+        cv2.imshow('image', img)
+        if cv2.waitKey(20) == 27:
+            break
+
+
 if __name__ == '__main__':
-    src = "/home/sy/data/work/StandardCVSXImages/label_txt_kuo/"
-    change_file_name(src)
+    src = "/home/sy/code/git/cvs-mobilenetv2-yolo/resource/"
+    dst = "/home/sy/code/git/cvs-mobilenetv2-yolo/resource/15_7-12/"
+    format = "jpg"
+
+    # src = "/home/sy/data/work/StandardCVSXImages/image_jpg/"
+    # dst = "/home/sy/code/project/mAP/inputs_your/MobileNetV2_0.5_224_layerShort/"
+    # format = "txt"
+    move_format_file(src, dst, format)
+
+    # draw_circle_lable()
